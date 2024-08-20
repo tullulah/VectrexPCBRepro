@@ -26130,7 +26130,7 @@
 		)
 		(uuid "116343f8-aa84-4426-9dab-b7943f47503f")
 	)
-	(label "Y"
+	(label "Y_AXIS"
 		(at 214.63 191.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -28132,7 +28132,7 @@
 		)
 		(uuid "a6574759-9fed-4f63-bf55-be380eb96fa1")
 	)
-	(label "X"
+	(label "X_AXIS"
 		(at 214.63 194.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -28385,7 +28385,7 @@
 		)
 		(uuid "b6b362c8-8ba5-4761-9188-951f9cc30504")
 	)
-	(label "Z"
+	(label "Z_AXIS"
 		(at 214.63 196.85 180)
 		(fields_autoplaced yes)
 		(effects
