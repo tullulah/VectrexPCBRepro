@@ -3992,160 +3992,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x02_Female"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Female"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Female_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -7208,130 +7054,6 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Speaker"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at 1.27 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Speaker"
-				(at 1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.254 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Speaker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "speaker sound"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Speaker_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.016 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Speaker_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -22024,16 +21746,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 326.39) (xy 127 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d16ec62-f6cf-41b1-85ca-2de41f55dc02")
-	)
-	(wire
-		(pts
 			(xy 255.27 245.11) (xy 275.59 245.11)
 		)
 		(stroke
@@ -24721,16 +24433,6 @@
 			(type default)
 		)
 		(uuid "e1bda80b-04c2-46aa-9106-cf5209813305")
-	)
-	(wire
-		(pts
-			(xy 125.73 323.85) (xy 127 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f27f4e-1867-44b4-9956-be75ac26b053")
 	)
 	(wire
 		(pts
@@ -31821,75 +31523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Speaker")
-		(at 132.08 326.39 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ede90c4-babb-481f-bcd4-47fb59d86646")
-		(property "Reference" "SPKR1"
-			(at 132.588 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8Ω 1W"
-			(at 132.588 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 131.826 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fcc2071-8697-4ffe-8e48-24e4508ec686")
-		)
-		(pin "2"
-			(uuid "28b49eb7-5a57-4167-86af-ec94d7e8e4f1")
-		)
-		(instances
-			(project "LogicBoard 3GE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SPKR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 194.31 227.33 270)
 		(unit 1)
@@ -32376,7 +32009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27610531-0e3d-4c75-b759-00558753062e")
-		(property "Reference" "R3"
+		(property "Reference" "R103"
 			(at 99.06 328.9299 0)
 			(effects
 				(font
@@ -32394,7 +32027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 98.298 330.2 90)
 			(effects
 				(font
@@ -32430,7 +32063,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -34296,7 +33929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 61.2648 330.2 0)
 			(effects
 				(font
@@ -35275,76 +34908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Female")
-		(at 120.65 323.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44525fb7-a3f9-4efc-8699-18d759bfec56")
-		(property "Reference" "P1"
-			(at 121.285 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Female"
-			(at 121.285 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b3828df-a52b-4b50-93b3-2d07e6c75a83")
-		)
-		(pin "2"
-			(uuid "d7917955-8df7-4aef-8a08-b0f997e6a95e")
-		)
-		(instances
-			(project "LogicBoard 3GE"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 257.81 264.16 0)
 		(unit 1)
@@ -35809,7 +35372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46a2af0a-008a-4efa-a978-ec5b0d99d80f")
-		(property "Reference" "R1"
+		(property "Reference" "R104"
 			(at 34.29 318.77 90)
 			(effects
 				(font
@@ -35825,7 +35388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.29 323.088 90)
 			(effects
 				(font
@@ -35861,7 +35424,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R1")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -40720,7 +40283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84588d8e-4c59-42f1-8970-def7e0409410")
-		(property "Reference" "R2"
+		(property "Reference" "R105"
 			(at 43.18 332.74 0)
 			(effects
 				(font
@@ -40738,7 +40301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.418 334.01 90)
 			(effects
 				(font
@@ -40774,7 +40337,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R2")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -44397,7 +43960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0d5b2d4-3e8d-400f-8e71-62d9eb5cea2c")
-		(property "Reference" "C3"
+		(property "Reference" "C113"
 			(at 83.82 337.82 0)
 			(effects
 				(font
@@ -44415,7 +43978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.3"
 			(at 82.2452 342.9 0)
 			(effects
 				(font
@@ -44451,7 +44014,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C3")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -46371,7 +45934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1d0806e-d29c-48db-acc4-5a0dc8babc7a")
-		(property "Reference" "J2"
+		(property "Reference" "J103"
 			(at 113.03 321.31 0)
 			(effects
 				(font
@@ -46390,7 +45953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 115.57 323.85 0)
 			(effects
 				(font
@@ -46426,7 +45989,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -47788,7 +47351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d38e0f08-54a1-4598-a5df-954c2192dfc2")
-		(property "Reference" "C5"
+		(property "Reference" "C114"
 			(at 102.87 317.5 90)
 			(effects
 				(font
@@ -47804,7 +47367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 106.68 322.8848 0)
 			(effects
 				(font
@@ -47840,7 +47403,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C5")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -47855,7 +47418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4a24efd-99e7-4876-ad3a-c068652add08")
-		(property "Reference" "C1"
+		(property "Reference" "C106"
 			(at 53.34 332.74 0)
 			(effects
 				(font
@@ -47873,7 +47436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 51.7652 337.82 0)
 			(effects
 				(font
@@ -47909,7 +47472,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C1")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -47924,7 +47487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4f5175c-5797-4fd7-84ab-9d5408d2e747")
-		(property "Reference" "C4"
+		(property "Reference" "C116"
 			(at 99.06 339.09 0)
 			(effects
 				(font
@@ -47942,7 +47505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 344.17 0)
 			(effects
 				(font
@@ -47978,7 +47541,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C4")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -50339,8 +49902,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e583304f-48d3-4805-9090-d446597a3d6e")
-		(property "Reference" "IC1"
-			(at 91.44 319.151 0)
+		(property "Reference" "IC103"
+			(at 91.44 317.5314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50348,14 +49911,14 @@
 			)
 		)
 		(property "Value" "LM386-3"
-			(at 91.44 321.691 0)
+			(at 91.44 320.0714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
 			(at 78.232 342.646 0)
 			(effects
 				(font
@@ -50406,7 +49969,7 @@
 		(instances
 			(project "LogicBoard 3GE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "IC1")
+					(reference "IC103")
 					(unit 1)
 				)
 			)
