@@ -493,6 +493,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "Bus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -519,6 +536,318 @@
       {
         "netclass": "Power",
         "pattern": "-5VA"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-12V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A0"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A2"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A3"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A4"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A5"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A6"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A7"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A8"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A9"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A10"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A11"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A12"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A13"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A14"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "A15"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D0"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D2"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D3"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D4"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D5"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D6"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "D7"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P0"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P2"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P3"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P4"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P5"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P6"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "P7"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q0"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q2"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q3"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q4"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q5"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q6"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "Q7"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW0"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW2"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW3"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW4"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW5"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW6"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SW7"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{HALT}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "PB6"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{E}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "R~{W}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{CARTS}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{NMI}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{IRQ}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{RESET}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "FIRQ"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{ROMS}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{ROMOE}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{RAMS}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "RAM_R~{W}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "E"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{IOS}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{BLANK}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{RAMP}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "COMPARE"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "BDIR"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "BC1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SH"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SEL0"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "SEL1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "~{ZERO}"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "CA1"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "CHA"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "CHB"
+      },
+      {
+        "netclass": "Bus",
+        "pattern": "CHC"
       }
     ]
   },
