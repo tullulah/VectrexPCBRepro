@@ -1,3 +1,14 @@
 *.zip
 *.lck
 .DS_Store
+
+# KiCad backups / autosave
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+fp-info-cache
+
+# Freerouting / tooling artifacts
+freerouting.frb
+gui_defaults.par
