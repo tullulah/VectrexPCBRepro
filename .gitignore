@@ -12,3 +12,6 @@ fp-info-cache
 # Freerouting / tooling artifacts
 freerouting.frb
 gui_defaults.par
+
+# Editor local history
+.history/
