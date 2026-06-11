@@ -1,0 +1,117 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6f717d52-0a9b-43ca-aa24-dc6f278930de")
+	(paper "A3")
+	(lib_symbols)
+	(hierarchical_label "AXIS_IN"
+		(shape input)
+		(at 30.48 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f24420d-5a76-4c22-a237-1c56eb4a3cf5")
+	)
+	(sheet
+		(at 146.177 25.019)
+		(size 113.665 80.137)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a7f7b7ee-cf22-4b12-8cce-399575b6f9d4")
+		(property "Sheetname" "Deflection_Channel"
+			(at 146.177 24.3074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Deflection_Channel.kicad_sch"
+			(at 146.177 105.7406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DeflectionBoard"
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.416 24.892)
+		(size 108.204 80.01)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4260d74-3a06-4b55-bca2-f2f2ac4694f7")
+		(property "Sheetname" "Power"
+			(at 26.416 24.1804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 26.416 105.4866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DeflectionBoard"
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
