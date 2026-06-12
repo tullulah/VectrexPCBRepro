@@ -43,7 +43,7 @@ R101.1 → +15V   R101.2 → U101.9(FB)              (FB top)
 R102.1 → U101.9(FB)   R102.2 → GND               (FB bottom)
 U101.8(COMP) → R103.1 ; R103.2 → C103.1 ; C103.2 → GND
 U101.5(SS) → C104.1 ; C104.2 → GND
-U101.10(FREQ) → R106.1 ; R106.2 → GND            ← ADD R106 (RT), sets fsw
+U101.10(FREQ) → R106.1 ; R106.2 → GND            ← ADD R106 = 78.7k (RT, fsw~600kHz)
 U101.6(SYNC) → GND                               (or no-connect flag)
 U101.7(AGND), 12,13,14(PGND), 15(EPAD) → GND
 ```
@@ -126,7 +126,8 @@ U207.1(A) → Q ;  U207.2(B) → EN ;  U207.4(Y) → PWM_A
 U208.1(A) → /Q ; U208.2(B) → EN ;  U208.4(Y) → PWM_B
 U206.5,U207.5,U208.5 (VCC) → +5V ;  .3(GND) → GND
 C213.1 → +5V ; C213.2 → GND
-EN → +5V (bench) or spot-killer global label
+R208(10k) : +5V → EN  (pull-up, NOT a direct tie)   ; EN → U207.2, U208.2
+  EN is high by default (enabled); spot killer pulls it low on fault. Keeps +5V rail separate.
 ```
 
 ### E — Power stage  (U201 leg A, U202 leg B = CSD97394Q4M)
@@ -165,7 +166,7 @@ J201.2 → U202.4(VSW)   (coil terminal 2, SW_B)
 - Rails reach both channels by power-symbol name; `EN` global label to both.
 
 ## New parts to add (not in original placement)
-- **R106** = RT resistor, U101.10(FREQ)→GND (value per TPS55340 datasheet for target fsw).
+- **R106** = 78.7k RT resistor, U101.10(FREQ)→GND (fsw≈600kHz; RFREQ[kΩ]=57500·fsw[kHz]^-1.03).
 - **C114** = buck bootstrap (already added).
 - **R207** = 100k offset-injection resistor (RV202 wiper → N1).
 - **RV201/RV202** → change to 3-pin `Device:R_Potentiometer_Trim` (10k). Pins: 1,3 = ends, 2 = wiper.

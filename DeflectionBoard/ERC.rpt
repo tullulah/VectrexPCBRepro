@@ -1,0 +1,49 @@
+ERC report (2026-06-12T12:29:09, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[duplicate_reference]: Duplicate items #PWR054
+
+    ; error
+    @(2950 mils, 3450 mils): Symbol #PWR054 [+7.5V]
+    @(8050 mils, 1650 mils): Symbol #PWR054 [+2V5]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1850 mils, 3300 mils): Symbol U103 [REF3325AIDCKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5200 mils, 1400 mils): Symbol U101 [TPS55340PWPR]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(9250 mils, 1150 mils): Hierarchical Label 'AXIS_IN'
+
+***** Sheet /Power/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(2900 mils, 1650 mils): Symbol #FLG03 Pin 1 [Power output, Line]
+    @(4700 mils, 900 mils): Symbol #FLG07 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(2900 mils, 1800 mils): Symbol #FLG04 Pin 1 [Power output, Line]
+    @(10150 mils, 1200 mils): Symbol #FLG08 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(2900 mils, 1950 mils): Symbol #FLG05 Pin 1 [Power output, Line]
+    @(2950 mils, 3400 mils): Symbol #FLG09 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Output and Power output are connected
+    ; error
+    @(2900 mils, 3400 mils): Symbol U103 Pin 2 [OUT, Output, Line]
+    @(2950 mils, 3400 mils): Symbol #FLG09 Pin 1 [Power output, Line]
+
+***** Sheet /Deflection_Channel/
+[hier_label_mismatch]: Hierarchical label AXIS_IN has no matching sheet pin in the parent sheet
+    ; error
+    @(9250 mils, 1150 mils): Hierarchical Label 'AXIS_IN'
+
+ ** ERC messages: 9  Errors 6  Warnings 3
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
