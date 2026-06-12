@@ -540,7 +540,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 300,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -645,6 +645,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -657,7 +665,7 @@
         "uuid": "6f717d52-0a9b-43ca-aa24-dc6f278930de"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR301,J302",
     "variants": []
   },
   "sheets": [
@@ -671,7 +679,11 @@
     ],
     [
       "a7f7b7ee-cf22-4b12-8cce-399575b6f9d4",
-      "Deflection_Channel"
+      "Deflection_Channel_X"
+    ],
+    [
+      "c24e768a-4bdc-48a8-9fd9-243a191fad07",
+      "Deflection_Channel_Y"
     ]
   ],
   "text_variables": {},

@@ -4939,10 +4939,8 @@
 		)
 		(uuid "ffc8e4ad-b1e5-4c96-b1e6-24d44a5f34a4")
 	)
-	(global_label "PWM_B"
-		(shape input)
+	(label "PWM_B"
 		(at 170.18 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4950,23 +4948,9 @@
 			(justify left)
 		)
 		(uuid "07712eba-9de2-4522-aecf-d6c42e7cb483")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.5756 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "{slash}Q"
-		(shape input)
+	(label "{slash}Q"
 		(at 138.43 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4974,23 +4958,9 @@
 			(justify right)
 		)
 		(uuid "22cc8ff2-150f-4051-8541-20b08361dc91")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.7838 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "COIL_A"
-		(shape input)
+	(label "COIL_A"
 		(at 88.9 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4998,23 +4968,9 @@
 			(justify left)
 		)
 		(uuid "4c0e3252-847a-4889-a707-2ce73c5eca89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.1748 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "PWM_A"
-		(shape input)
+	(label "PWM_A"
 		(at 21.59 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5022,18 +4978,166 @@
 			(justify right)
 		)
 		(uuid "4e60b087-2212-4686-856d-9f46fdb915c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.3758 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	)
+	(label "Vsense"
+		(at 35.56 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "582bad95-5d3b-4eb8-a1b4-7eebbf34f6e9")
+	)
+	(label "Vset"
+		(at 22.86 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85886432-c2eb-4b2d-8789-0e64c5d51280")
+	)
+	(label "Q"
+		(at 118.11 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9993bbf2-801a-4c68-a74d-d0b915cfa0ba")
+	)
+	(label "SW_A"
+		(at 187.96 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4dc7a78-dbde-4a97-bcee-bc8076f94626")
+	)
+	(label "Vset"
+		(at 278.13 48.26 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa7fd2d0-d443-4134-b93e-ee1cafec6a0d")
+	)
+	(label "PWM_B"
+		(at 105.41 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9115a6a-11b9-4a89-8ba0-aa32dd4dde01")
+	)
+	(label "Q"
+		(at 87.63 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b99cda6c-0907-42f6-9150-7562e72aab11")
+	)
+	(label "{slash}Q"
+		(at 118.11 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbdeb3e2-32d3-4cd8-8a3a-e8c1a5ebd165")
+	)
+	(label "SW_B"
+		(at 168.91 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c28309b2-9329-43d2-859f-936ed6715f64")
+	)
+	(label "SW_B"
+		(at 201.93 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6a6be5a-88c8-4d67-b3fe-bbb063d0dbde")
+	)
+	(label "Vsense"
+		(at 210.82 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1710cc0-8935-4dfb-8bbc-e1d809ada9d9")
+	)
+	(label "COIL_A"
+		(at 189.23 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e21eec95-906f-4926-bae1-6f22c143f12c")
+	)
+	(label "COIL_A"
+		(at 201.93 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4388f59-e5bd-489c-a4a5-ad2e370889e1")
+	)
+	(label "SW_A"
+		(at 86.36 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed4b29f1-cf45-4ad0-8fe1-fe64f7e21361")
+	)
+	(label "PWM_A"
+		(at 148.59 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ede1ad98-6eae-4c63-922e-52c5f20db154")
+	)
+	(label "Q"
+		(at 66.04 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f84fe751-ff4e-45f8-85fe-2bec30cefc5f")
 	)
 	(global_label "EN"
 		(shape input)
@@ -5048,30 +5152,6 @@
 		(uuid "55e82941-be38-42b8-a9a6-ee080b22ab10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.6453 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Vsense"
-		(shape input)
-		(at 35.56 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "582bad95-5d3b-4eb8-a1b4-7eebbf34f6e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.1038 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,102 +5187,6 @@
 			)
 		)
 	)
-	(global_label "Vset"
-		(shape input)
-		(at 22.86 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85886432-c2eb-4b2d-8789-0e64c5d51280")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.9438 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Q"
-		(shape input)
-		(at 118.11 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9993bbf2-801a-4c68-a74d-d0b915cfa0ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.7943 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW_A"
-		(shape input)
-		(at 187.96 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4dc7a78-dbde-4a97-bcee-bc8076f94626")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2577 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Vset"
-		(shape input)
-		(at 278.13 48.26 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa7fd2d0-d443-4134-b93e-ee1cafec6a0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 55.1762 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "EN"
 		(shape input)
 		(at 138.43 105.41 180)
@@ -5224,270 +5208,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "PWM_B"
-		(shape input)
-		(at 105.41 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9115a6a-11b9-4a89-8ba0-aa32dd4dde01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.0144 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Q"
-		(shape input)
-		(at 87.63 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b99cda6c-0907-42f6-9150-7562e72aab11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.3143 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "{slash}Q"
-		(shape input)
-		(at 118.11 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bbdeb3e2-32d3-4cd8-8a3a-e8c1a5ebd165")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7562 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SW_B"
-		(shape input)
-		(at 168.91 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c28309b2-9329-43d2-859f-936ed6715f64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.7937 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SW_B"
-		(shape input)
-		(at 201.93 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d6a6be5a-88c8-4d67-b3fe-bbb063d0dbde")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0463 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Vsense"
-		(shape input)
-		(at 210.82 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1710cc0-8935-4dfb-8bbc-e1d809ada9d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.2762 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "COIL_A"
-		(shape input)
-		(at 189.23 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e21eec95-906f-4926-bae1-6f22c143f12c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.9552 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "COIL_A"
-		(shape input)
-		(at 201.93 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4388f59-e5bd-489c-a4a5-ad2e370889e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.6552 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW_A"
-		(shape input)
-		(at 86.36 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed4b29f1-cf45-4ad0-8fe1-fe64f7e21361")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.0623 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PWM_A"
-		(shape input)
-		(at 148.59 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ede1ad98-6eae-4c63-922e-52c5f20db154")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.8042 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Q"
-		(shape input)
-		(at 66.04 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f84fe751-ff4e-45f8-85fe-2bec30cefc5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.3557 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5577,6 +5297,10 @@
 					(reference "#FLG011")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#FLG1011")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5612,7 +5336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 250.19 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5655,6 +5379,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "R202")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -5734,6 +5462,10 @@
 					(reference "#PWR082")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1082")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5809,6 +5541,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1060")
 					(unit 1)
 				)
 			)
@@ -5890,6 +5626,10 @@
 					(reference "#PWR086")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1086")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5925,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 134.62 127 0)
 			(hide yes)
 			(show_name no)
@@ -5977,6 +5717,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "U207")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U307")
 					(unit 1)
 				)
 			)
@@ -6076,6 +5820,10 @@
 					(reference "U204")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U304")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6153,6 +5901,10 @@
 					(reference "#PWR079")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1079")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6188,7 +5940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6231,6 +5983,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C202")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -6312,6 +6068,10 @@
 					(reference "#PWR046")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1046")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6391,6 +6151,10 @@
 					(reference "#PWR075")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1075")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6468,6 +6232,10 @@
 					(reference "#PWR076")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1076")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6504,7 +6272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6547,6 +6315,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "R206")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -6627,6 +6399,10 @@
 					(reference "#PWR050")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1050")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6662,7 +6438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6705,6 +6481,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C201")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -6782,6 +6562,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1064")
 					(unit 1)
 				)
 			)
@@ -6862,6 +6646,10 @@
 					(reference "#PWR047")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1047")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6937,6 +6725,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1066")
 					(unit 1)
 				)
 			)
@@ -7039,6 +6831,10 @@
 					(reference "U204")
 					(unit 3)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U304")
+					(unit 3)
+				)
 			)
 		)
 	)
@@ -7118,6 +6914,10 @@
 					(reference "#PWR048")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1048")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7195,6 +6995,10 @@
 					(reference "#PWR067")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1067")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7270,6 +7074,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1063")
 					(unit 1)
 				)
 			)
@@ -7350,6 +7158,10 @@
 					(reference "#PWR051")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1051")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7387,7 +7199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 120.65 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7430,6 +7242,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C207")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -7511,6 +7327,10 @@
 					(reference "#FLG02")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#FLG1002")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7548,7 +7368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7591,6 +7411,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C203")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -7670,6 +7494,10 @@
 					(reference "#PWR062")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1062")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7747,6 +7575,10 @@
 					(reference "#PWR056")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1056")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7782,7 +7614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 104.14 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7834,6 +7666,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "U206")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U306")
 					(unit 1)
 				)
 			)
@@ -7934,6 +7770,10 @@
 					(reference "U205")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U305")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7969,7 +7809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339H_Vertical"
 			(at 247.65 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8050,6 +7890,10 @@
 					(reference "RV202")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "RV302")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8087,7 +7931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8130,6 +7974,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C204")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -8207,6 +8055,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1080")
 					(unit 1)
 				)
 			)
@@ -8288,6 +8140,10 @@
 					(reference "#PWR052")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1052")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8363,6 +8219,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR073")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1073")
 					(unit 1)
 				)
 			)
@@ -8468,6 +8328,10 @@
 					(reference "U201")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U301")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8503,7 +8367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 154.94 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8555,6 +8419,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "U208")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U308")
 					(unit 1)
 				)
 			)
@@ -8634,6 +8502,10 @@
 					(reference "#PWR057")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1057")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8671,7 +8543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.89 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8716,6 +8588,10 @@
 					(reference "C208")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C308")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8753,7 +8629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 24.13 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8796,6 +8672,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "R205")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -8875,6 +8755,10 @@
 					(reference "#PWR085")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1085")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8912,7 +8796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8955,6 +8839,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C211")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -9034,6 +8922,10 @@
 					(reference "#PWR055")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1055")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9109,6 +9001,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1077")
 					(unit 1)
 				)
 			)
@@ -9188,6 +9084,10 @@
 					(reference "#PWR070")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1070")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9225,7 +9125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 156.21 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9268,6 +9168,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C206")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -9347,6 +9251,10 @@
 					(reference "#PWR069")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1069")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9422,6 +9330,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1093")
 					(unit 1)
 				)
 			)
@@ -9520,6 +9432,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "U204")
+					(unit 2)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U304")
 					(unit 2)
 				)
 			)
@@ -9625,6 +9541,10 @@
 					(reference "U202")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U302")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9703,6 +9623,10 @@
 					(reference "#FLG012")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#FLG1012")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9740,7 +9664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 146.05 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9783,6 +9707,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C205")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -9862,6 +9790,10 @@
 					(reference "#PWR083")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1083")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9939,6 +9871,10 @@
 					(reference "#PWR058")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1058")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10014,6 +9950,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1068")
 					(unit 1)
 				)
 			)
@@ -10114,6 +10054,10 @@
 					(reference "U203")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "U303")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10151,7 +10095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 205.74 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10194,6 +10138,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C210")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -10273,6 +10221,10 @@
 					(reference "#PWR087")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1087")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10350,6 +10302,10 @@
 					(reference "#PWR071")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1071")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10425,6 +10381,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1081")
 					(unit 1)
 				)
 			)
@@ -10506,6 +10466,10 @@
 					(reference "#PWR088")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1088")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10541,7 +10505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339H_Vertical"
 			(at 241.3 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10622,6 +10586,10 @@
 					(reference "RV201")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "RV301")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10657,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 85.09 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10702,6 +10670,10 @@
 					(reference "R201")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R301")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10737,7 +10709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 251.46 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10780,6 +10752,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "R207")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -10859,6 +10835,10 @@
 					(reference "#PWR084")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1084")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10934,6 +10914,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1065")
 					(unit 1)
 				)
 			)
@@ -11015,6 +10999,10 @@
 					(reference "#FLG010")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#FLG1010")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11052,7 +11040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11095,6 +11083,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C212")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -11176,6 +11168,10 @@
 					(reference "#PWR074")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1074")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11191,7 +11187,7 @@
 		(dnp no)
 		(uuid "e4cda455-0cb9-40c1-b724-e79e570290cc")
 		(property "Reference" "R208"
-			(at 103.378 135.128 90)
+			(at 102.362 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11212,7 +11208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11257,6 +11253,10 @@
 					(reference "R208")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R308")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11292,7 +11292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 250.19 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11337,6 +11337,10 @@
 					(reference "R203")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R303")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11372,7 +11376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11417,6 +11421,10 @@
 					(reference "R204")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "R304")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11454,7 +11462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.32 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11497,6 +11505,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C209")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -11577,6 +11589,10 @@
 					(reference "#PWR053")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1053")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11654,6 +11670,10 @@
 					(reference "#PWR061")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1061")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11680,7 +11700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "YOKE_X"
+		(property "Value" "YOKE"
 			(at 210.82 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11691,7 +11711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 208.28 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11734,6 +11754,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "J201")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -11813,6 +11837,10 @@
 					(reference "#PWR059")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1059")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11890,6 +11918,10 @@
 					(reference "#PWR078")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1078")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -11927,7 +11959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 92.71 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11970,6 +12002,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "C213")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -12050,6 +12086,10 @@
 					(reference "#PWR049")
 					(unit 1)
 				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1049")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -12125,6 +12165,10 @@
 			(project "DeflectionBoard"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/a7f7b7ee-cf22-4b12-8cce-399575b6f9d4"
 					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de/c24e768a-4bdc-48a8-9fd9-243a191fad07"
+					(reference "#PWR1072")
 					(unit 1)
 				)
 			)

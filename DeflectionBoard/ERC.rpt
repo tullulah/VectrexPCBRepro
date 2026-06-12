@@ -1,46 +1,285 @@
-ERC report (2026-06-12T12:29:09, Encoding UTF8)
+ERC report (2026-06-12T15:17:32, Encoding UTF8)
 Report includes: Errors, Warnings
 
 ***** Sheet /
-[duplicate_reference]: Duplicate items #PWR054
+[duplicate_reference]: Duplicate items #PWR079
 
     ; error
-    @(2950 mils, 3450 mils): Symbol #PWR054 [+7.5V]
-    @(8050 mils, 1650 mils): Symbol #PWR054 [+2V5]
-[footprint_link_issues]: The current configuration does not include the footprint library ''
+    @(850 mils, 1650 mils): Symbol #PWR079 [+5V]
+    @(850 mils, 1650 mils): Symbol #PWR079 [+5V]
+[duplicate_reference]: Duplicate items #PWR085
+
+    ; error
+    @(900 mils, 2250 mils): Symbol #PWR085 [+5V]
+    @(900 mils, 2250 mils): Symbol #PWR085 [+5V]
+[duplicate_reference]: Duplicate items #PWR060
+
+    ; error
+    @(1700 mils, 3650 mils): Symbol #PWR060 [+5V]
+    @(1700 mils, 3650 mils): Symbol #PWR060 [+5V]
+[duplicate_reference]: Duplicate items #PWR061
+
+    ; error
+    @(1700 mils, 4350 mils): Symbol #PWR061 [GND]
+    @(1700 mils, 4350 mils): Symbol #PWR061 [GND]
+[duplicate_reference]: Duplicate items #PWR062
+
+    ; error
+    @(1800 mils, 4350 mils): Symbol #PWR062 [+5V]
+    @(1800 mils, 4350 mils): Symbol #PWR062 [+5V]
+[duplicate_reference]: Duplicate items #PWR080
+
+    ; error
+    @(2100 mils, 750 mils): Symbol #PWR080 [+5V]
+    @(2100 mils, 750 mils): Symbol #PWR080 [+5V]
+[duplicate_reference]: Duplicate items #PWR081
+
+    ; error
+    @(2100 mils, 1000 mils): Symbol #PWR081 [GND]
+    @(2100 mils, 1000 mils): Symbol #PWR081 [GND]
+[duplicate_reference]: Duplicate items #PWR063
+
+    ; error
+    @(2600 mils, 3450 mils): Symbol #PWR063 [+5V]
+    @(2600 mils, 3450 mils): Symbol #PWR063 [+5V]
+[duplicate_reference]: Duplicate items #PWR064
+
+    ; error
+    @(2600 mils, 3750 mils): Symbol #PWR064 [GND]
+    @(2600 mils, 3750 mils): Symbol #PWR064 [GND]
+[duplicate_reference]: Duplicate items #FLG011
+
+    ; error
+    @(2800 mils, 1650 mils): Symbol #FLG011 [PWR_FLAG]
+    @(2800 mils, 1650 mils): Symbol #FLG011 [PWR_FLAG]
+[duplicate_reference]: Duplicate items #PWR074
+
+    ; error
+    @(2850 mils, 1850 mils): Symbol #PWR074 [+15V]
+    @(2850 mils, 1850 mils): Symbol #PWR074 [+15V]
+[duplicate_reference]: Duplicate items #PWR076
+
+    ; error
+    @(2950 mils, 2950 mils): Symbol #PWR076 [GND]
+    @(2950 mils, 2950 mils): Symbol #PWR076 [GND]
+[duplicate_reference]: Duplicate items #FLG02
+
+    ; error
+    @(3200 mils, 2750 mils): Symbol #FLG02 [PWR_FLAG]
+    @(3200 mils, 2750 mils): Symbol #FLG02 [PWR_FLAG]
+[duplicate_reference]: Duplicate items #PWR072
+
+    ; error
+    @(3650 mils, 4800 mils): Symbol #PWR072 [+5V]
+    @(3650 mils, 4800 mils): Symbol #PWR072 [+5V]
+[duplicate_reference]: Duplicate items #PWR071
+
+    ; error
+    @(3650 mils, 5100 mils): Symbol #PWR071 [GND]
+    @(3650 mils, 5100 mils): Symbol #PWR071 [GND]
+[duplicate_reference]: Duplicate items #PWR065
+
+    ; error
+    @(3800 mils, 3600 mils): Symbol #PWR065 [+5V]
+    @(3800 mils, 3600 mils): Symbol #PWR065 [+5V]
+[duplicate_reference]: Duplicate items #PWR070
+
+    ; error
+    @(3900 mils, 4450 mils): Symbol #PWR070 [GND]
+    @(3900 mils, 4450 mils): Symbol #PWR070 [GND]
+[duplicate_reference]: Duplicate items #PWR078
+
+    ; error
+    @(4150 mils, 1450 mils): Symbol #PWR078 [+5V]
+    @(4150 mils, 1450 mils): Symbol #PWR078 [+5V]
+[duplicate_reference]: Duplicate items #PWR084
+
+    ; error
+    @(4150 mils, 2050 mils): Symbol #PWR084 [+5V]
+    @(4150 mils, 2050 mils): Symbol #PWR084 [+5V]
+[duplicate_reference]: Duplicate items #PWR073
+
+    ; error
+    @(4300 mils, 5400 mils): Symbol #PWR073 [+5V]
+    @(4300 mils, 5400 mils): Symbol #PWR073 [+5V]
+[duplicate_reference]: Duplicate items #PWR086
+
+    ; error
+    @(4650 mils, 2900 mils): Symbol #PWR086 [+15V]
+    @(4650 mils, 2900 mils): Symbol #PWR086 [+15V]
+[duplicate_reference]: Duplicate items #PWR087
+
+    ; error
+    @(4650 mils, 3200 mils): Symbol #PWR087 [GND]
+    @(4650 mils, 3200 mils): Symbol #PWR087 [GND]
+[duplicate_reference]: Duplicate items #PWR067
+
+    ; error
+    @(5200 mils, 4600 mils): Symbol #PWR067 [+5V]
+    @(5200 mils, 4600 mils): Symbol #PWR067 [+5V]
+[duplicate_reference]: Duplicate items #PWR068
+
+    ; error
+    @(5300 mils, 5450 mils): Symbol #PWR068 [GND]
+    @(5300 mils, 5450 mils): Symbol #PWR068 [GND]
+[duplicate_reference]: Duplicate items #PWR082
+
+    ; error
+    @(5650 mils, 750 mils): Symbol #PWR082 [+5V]
+    @(5650 mils, 750 mils): Symbol #PWR082 [+5V]
+[duplicate_reference]: Duplicate items #PWR083
+
+    ; error
+    @(5650 mils, 1000 mils): Symbol #PWR083 [GND]
+    @(5650 mils, 1000 mils): Symbol #PWR083 [GND]
+[duplicate_reference]: Duplicate items #PWR066
+
+    ; error
+    @(6000 mils, 3650 mils): Symbol #PWR066 [+5V]
+    @(6000 mils, 3650 mils): Symbol #PWR066 [+5V]
+[duplicate_reference]: Duplicate items #FLG012
+
+    ; error
+    @(6100 mils, 1450 mils): Symbol #FLG012 [PWR_FLAG]
+    @(6100 mils, 1450 mils): Symbol #FLG012 [PWR_FLAG]
+[duplicate_reference]: Duplicate items #PWR069
+
+    ; error
+    @(6100 mils, 4500 mils): Symbol #PWR069 [GND]
+    @(6100 mils, 4500 mils): Symbol #PWR069 [GND]
+[duplicate_reference]: Duplicate items #PWR075
+
+    ; error
+    @(6150 mils, 1650 mils): Symbol #PWR075 [+15V]
+    @(6150 mils, 1650 mils): Symbol #PWR075 [+15V]
+[duplicate_reference]: Duplicate items #PWR077
+
+    ; error
+    @(6250 mils, 2750 mils): Symbol #PWR077 [GND]
+    @(6250 mils, 2750 mils): Symbol #PWR077 [GND]
+[duplicate_reference]: Duplicate items #FLG010
+
+    ; error
+    @(6550 mils, 2100 mils): Symbol #FLG010 [PWR_FLAG]
+    @(6550 mils, 2100 mils): Symbol #FLG010 [PWR_FLAG]
+[duplicate_reference]: Duplicate items #PWR056
+
+    ; error
+    @(7800 mils, 950 mils): Symbol #PWR056 [+5V]
+    @(7800 mils, 950 mils): Symbol #PWR056 [+5V]
+[duplicate_reference]: Duplicate items #PWR057
+
+    ; error
+    @(7800 mils, 1700 mils): Symbol #PWR057 [GND]
+    @(7800 mils, 1700 mils): Symbol #PWR057 [GND]
+[duplicate_reference]: Duplicate items #PWR055
+
+    ; error
+    @(7900 mils, 1700 mils): Symbol #PWR055 [+2V5]
+    @(7900 mils, 1700 mils): Symbol #PWR055 [+2V5]
+[duplicate_reference]: Duplicate items #PWR093
+
+    ; error
+    @(8050 mils, 1650 mils): Symbol #PWR093 [+2V5]
+    @(8050 mils, 1650 mils): Symbol #PWR093 [+2V5]
+[duplicate_reference]: Duplicate items #PWR058
+
+    ; error
+    @(8100 mils, 800 mils): Symbol #PWR058 [+5V]
+    @(8100 mils, 800 mils): Symbol #PWR058 [+5V]
+[duplicate_reference]: Duplicate items #PWR059
+
+    ; error
+    @(8100 mils, 1100 mils): Symbol #PWR059 [GND]
+    @(8100 mils, 1100 mils): Symbol #PWR059 [GND]
+[duplicate_reference]: Duplicate items #PWR048
+
+    ; error
+    @(9150 mils, 2250 mils): Symbol #PWR048 [+5V]
+    @(9150 mils, 2250 mils): Symbol #PWR048 [+5V]
+[duplicate_reference]: Duplicate items #PWR049
+
+    ; error
+    @(9200 mils, 2900 mils): Symbol #PWR049 [GND]
+    @(9200 mils, 2900 mils): Symbol #PWR049 [GND]
+[duplicate_reference]: Duplicate items #PWR052
+
+    ; error
+    @(9500 mils, 1950 mils): Symbol #PWR052 [+5V]
+    @(9500 mils, 1950 mils): Symbol #PWR052 [+5V]
+[duplicate_reference]: Duplicate items #PWR046
+
+    ; error
+    @(9650 mils, 1450 mils): Symbol #PWR046 [+5V]
+    @(9650 mils, 1450 mils): Symbol #PWR046 [+5V]
+[duplicate_reference]: Duplicate items #PWR088
+
+    ; error
+    @(9750 mils, 2850 mils): Symbol #PWR088 [GND]
+    @(9750 mils, 2850 mils): Symbol #PWR088 [GND]
+[duplicate_reference]: Duplicate items #PWR053
+
+    ; error
+    @(10100 mils, 2150 mils): Symbol #PWR053 [GND]
+    @(10100 mils, 2150 mils): Symbol #PWR053 [GND]
+[duplicate_reference]: Duplicate items #PWR047
+
+    ; error
+    @(10550 mils, 1350 mils): Symbol #PWR047 [GND]
+    @(10550 mils, 1350 mils): Symbol #PWR047 [GND]
+[duplicate_reference]: Duplicate items #PWR050
+
+    ; error
+    @(10800 mils, 2700 mils): Symbol #PWR050 [+5V]
+    @(10800 mils, 2700 mils): Symbol #PWR050 [+5V]
+[duplicate_reference]: Duplicate items #PWR051
+
+    ; error
+    @(10800 mils, 3000 mils): Symbol #PWR051 [GND]
+    @(10800 mils, 3000 mils): Symbol #PWR051 [GND]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
-    @(1850 mils, 3300 mils): Symbol U103 [REF3325AIDCKT]
-[footprint_link_issues]: The current configuration does not include the footprint library ''
-    ; warning
-    @(5200 mils, 1400 mils): Symbol U101 [TPS55340PWPR]
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(9250 mils, 1150 mils): Hierarchical Label 'AXIS_IN'
+    @(12250 mils, 4080 mils): Vertical Wire, length 720 mils
 
 ***** Sheet /Power/
-[pin_to_pin]: Pins of type Power output and Power output are connected
-    ; error
-    @(2900 mils, 1650 mils): Symbol #FLG03 Pin 1 [Power output, Line]
-    @(4700 mils, 900 mils): Symbol #FLG07 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Power output and Power output are connected
-    ; error
-    @(2900 mils, 1800 mils): Symbol #FLG04 Pin 1 [Power output, Line]
-    @(10150 mils, 1200 mils): Symbol #FLG08 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Power output and Power output are connected
-    ; error
-    @(2900 mils, 1950 mils): Symbol #FLG05 Pin 1 [Power output, Line]
-    @(2950 mils, 3400 mils): Symbol #FLG09 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Output and Power output are connected
-    ; error
-    @(2900 mils, 3400 mils): Symbol U103 Pin 2 [OUT, Output, Line]
-    @(2950 mils, 3400 mils): Symbol #FLG09 Pin 1 [Power output, Line]
 
-***** Sheet /Deflection_Channel/
-[hier_label_mismatch]: Hierarchical label AXIS_IN has no matching sheet pin in the parent sheet
+***** Sheet /Deflection_Channel_X/
+[pin_to_pin]: Pins of type Output and Output are connected
     ; error
-    @(9250 mils, 1150 mils): Hierarchical Label 'AXIS_IN'
+    @(2100 mils, 4000 mils): Symbol U205 Pin 6 [Output, Line]
+    @(2100 mils, 4000 mils): Symbol U205 Pin 6 [Output, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(4600 mils, 4000 mils): Symbol U206 Pin 4 [Output, Inverted]
+    @(4600 mils, 4000 mils): Symbol U206 Pin 4 [Output, Inverted]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(5800 mils, 5000 mils): Symbol U207 Pin 4 [Output, Line]
+    @(5800 mils, 5000 mils): Symbol U207 Pin 4 [Output, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(6600 mils, 4050 mils): Symbol U208 Pin 4 [Output, Line]
+    @(6600 mils, 4050 mils): Symbol U208 Pin 4 [Output, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(8200 mils, 1350 mils): Symbol U203 Pin 5 [Output, Line]
+    @(8200 mils, 1350 mils): Symbol U203 Pin 5 [Output, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(10800 mils, 1850 mils): Symbol U204 Pin 1 [Output, Line]
+    @(10800 mils, 1850 mils): Symbol U204 Pin 1 [Output, Line]
 
- ** ERC messages: 9  Errors 6  Warnings 3
+***** Sheet /Deflection_Channel_Y/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(3200 mils, 2750 mils): Symbol #FLG02 Pin 1 [Power output, Line]
+    @(3200 mils, 2750 mils): Symbol #FLG02 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(6550 mils, 2100 mils): Symbol #FLG010 Pin 1 [Power output, Line]
+    @(6550 mils, 2100 mils): Symbol #FLG010 Pin 1 [Power output, Line]
+
+ ** ERC messages: 56  Errors 55  Warnings 1
 
  ** Ignored checks:
     - Global label only appears once in the schematic
