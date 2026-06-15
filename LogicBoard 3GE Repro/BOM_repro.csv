@@ -5,8 +5,10 @@ IC202,74LS00,(removed),-,Absorbed into U_DECODE ATF16V8
 IC203,74LS32,(removed),-,Absorbed into U_DECODE ATF16V8
 IC204,2114,CY62256,SOP-28,Single SRAM replaces both 2114s; /CE=nRAMS /WE=RAM_nWE /OE=GND; A10-A14=GND
 IC205,2114,(removed),-,Merged into IC204 CY62256
-IC206,68A09,MC68B09 / 68A09,DIP-40,CPU - keep (R65C09/W65C09 also OK)
-IC207,6522,W65C22 / R65C22,DIP-40,VIA - keep; CS1(pin24)=A12 CS2(pin23)=nIOS
+IC206,68A09,HD63C09E,PLCC-44,CPU SMD - E variant=external clock; emulation mode; needs E/Q from IC209
+IC207,6522,W65C22S,PLCC-44,VIA SMD - in production; CS1(pin24)=A12 CS2(pin23)=nIOS
+IC209,(new),74HC74,SOIC-14,NEW - 2-bit Johnson counter: 6MHz->E/Q quadrature (clock/verify_eq.py)
+OSC1,(new),6MHz oscillator can,SMD,NEW - clock source for IC209 (E variant has no internal osc)
 IC208,AY3-8912,YM2149F,DIP-40,Sound - 40-pin clone; port A=SW0-7; TEST1(39)=GND for clones
 IC301,MC1408,MC1408 / DAC0808,DIP-16,DAC - keep (fed by 6522 port A = P0-7)
 IC302,CD4052B,CD4052B,DIP-16,Analog mux - keep
@@ -19,7 +21,7 @@ Q303,2N3904,2N3904,TO-92/SOT-23,NPN - keep
 D201,1N4148,1N4148,-,keep
 D301,1N4148,1N4148,-,keep
 D302,1N4148,1N4148,-,keep
-Y201,6MHz crystal,6MHz crystal,HC-49,CPU clock - keep
+Y201,6MHz crystal,(use OSC1 can),-,Bare crystal can't drive the 74HC74 - replace with OSC1 oscillator can (or add 74HC04 gate osc)
 J201,CART,CART edge,2x18,Cartridge connector; CARTS=J201.32
 J202,DB9_Male,DB9_Male,DE-9,Left controller
 J203,DB9_Male,DB9_Male,DE-9,Right controller

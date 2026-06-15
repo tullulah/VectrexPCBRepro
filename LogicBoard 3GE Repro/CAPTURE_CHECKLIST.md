@@ -33,7 +33,12 @@ Prep work already done (no GUI needed):
    per the YM2149 table. TEST1(39)=GND. A8(25)=+5V, A9(24)=GND. SEL(26)=+5V
    (bench-tune). IOB0-7 NC.
 
-6. **ERC pass** — target 0 unconnected + 0 real errors. Keep the intentional
+6. **CPU + clock** — swap IC206 to the `HD63C09E` PLCC-44 symbol (E variant). Add
+   **IC209 = 74HC74** (Johnson ÷4) + **OSC1 = 6MHz can**, wired per REBUILD_NOTES
+   "Substitution 5": Q1→CPU Q, Q2(E)→CPU E + VIA pin25 + YM2149 clock + GAL pin6.
+   Swap IC207 to `W65C22S` PLCC-44. The bare crystal Y201 is replaced by OSC1.
+
+7. **ERC pass** — target 0 unconnected + 0 real errors. Keep the intentional
    warnings (FIRQ=SW3, CA1=SW7, rail aliases) — see ERC_PUNCHLIST.md.
 
 7. **Phase 2** — assign footprints (reuse the SMD set from the old `LogicBoard 3GE/`

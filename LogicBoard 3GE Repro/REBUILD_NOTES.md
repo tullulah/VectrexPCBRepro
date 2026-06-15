@@ -148,3 +148,42 @@ but do NOT "fix" them:
 - **6522 CS1 (pin 24) = A12** — separates RAM (0xC800) from VIA (0xD000).
 - Power-rail aliases (`+5V`/`+5V_CART`, `GND`/`GNDA`, `-12VA`/`VEE`, `-5VA`/`-5V`)
   are intentional single-point joins.
+
+---
+
+# SMD miniaturization (size pass) + CPU clock
+
+## SMD packages
+| Part | Package | Note |
+|------|---------|------|
+| CPU `HD63C09E` | PLCC-44 | **E variant = external clock** (see below). Emulation mode. |
+| VIA `W65C22S` | PLCC-44 | In production. Drop-in for the 6522. CS1=A12, CS2=nIOS. |
+| Sound `YM2149` | DIP-40 | Stays through-hole (no SMD AY/YM). |
+| Decode `ATF16V8` | SOIC-20 | Decode ONLY (keep it a single-purpose chip — easy to fault-isolate). |
+| Clock `74HC74` | SOIC-14 | E/Q generator (below). |
+
+## Substitution 5 — CPU `HD63C09E` + external E/Q clock
+The non-E 6809 made its own clock from a crystal; the **E variant has no oscillator
+and takes E + Q as INPUTS**. So add a clock chain (verified in `clock/verify_eq.py`):
+
+**6 MHz source** — a **6 MHz SMD oscillator can** (cleanest), or a 74HC04 gate +
+the 6 MHz crystal. (The bare crystal Y201 alone can't drive the '74 — needs an
+oscillator.)
+
+**74HC74 as a 2-bit Johnson counter → ÷4 quadrature E/Q** (6 MHz ÷ 4 = 1.5 MHz =
+stock Vectrex speed):
+```
+VCC=pin14(+5V)  GND=pin7
+6 MHz  -> CLK1 (pin 3) and CLK2 (pin 11)
+D1 (pin 2)  = /Q2 (pin 8)        \  Johnson feedback
+D2 (pin 12) =  Q1 (pin 5)        /
+/PRE1(4) /CLR1(1) /PRE2(10) /CLR2(13) -> all +5V  (inactive)
+Q1 (pin 5) = Q  -> CPU Q input
+Q2 (pin 9) = E  -> CPU E input + 6522 pin25 + YM2149 clock + ATF16V8 pin6 (E)
+```
+Result: Q and E are 1.5 MHz, 50% duty, **Q leads E by 90°** (the 6809E requirement).
+E is the system bus clock (fans out to VIA, PSG, decode); Q goes only to the CPU.
+
+⚠️ The E-variant CPU pinout differs from the non-E: no XTAL/EXTAL; E/Q are inputs;
+handle TSC and the status pins (LIC/AVMA/BUSY/BS/BA) per the HD63C09E datasheet when
+placing the PLCC-44 symbol.
