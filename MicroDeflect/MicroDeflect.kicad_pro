@@ -511,7 +511,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DeflectionBoard.kicad_pro",
+    "filename": "MicroDeflect.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -729,8 +729,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "DeflectionBoard.kicad_sch",
-        "name": "DeflectionBoard",
+        "filename": "MicroDeflect.kicad_sch",
+        "name": "MicroDeflect",
         "uuid": "6f717d52-0a9b-43ca-aa24-dc6f278930de"
       }
     ],
@@ -740,7 +740,7 @@
   "sheets": [
     [
       "6f717d52-0a9b-43ca-aa24-dc6f278930de",
-      "DeflectionBoard"
+      "MicroDeflect"
     ],
     [
       "d4260d74-3a06-4b55-bca2-f2f2ac4694f7",

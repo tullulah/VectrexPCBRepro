@@ -628,7 +628,7 @@
 			(uuid "fa226025-365a-4630-850f-d0f557ac8b6d")
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(reference "J1")
 					(unit 1)
@@ -704,7 +704,7 @@
 			)
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(reference "H301")
 					(unit 1)
@@ -780,7 +780,7 @@
 			)
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(reference "H303")
 					(unit 1)
@@ -856,7 +856,7 @@
 			)
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(reference "H302")
 					(unit 1)
@@ -932,7 +932,7 @@
 			)
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(reference "H304")
 					(unit 1)
@@ -1011,7 +1011,7 @@
 			(uuid "657de7a0-0f0b-4955-a080-d5a4bdab298a")
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(reference "#PWR0301")
 					(unit 1)
@@ -1068,7 +1068,7 @@
 			)
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(page "3")
 				)
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(page "4")
 				)
@@ -1170,7 +1170,7 @@
 			)
 		)
 		(instances
-			(project "DeflectionBoard"
+			(project "MicroDeflect"
 				(path "/6f717d52-0a9b-43ca-aa24-dc6f278930de"
 					(page "2")
 				)
