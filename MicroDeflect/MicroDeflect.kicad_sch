@@ -526,7 +526,7 @@
 		)
 		(uuid "fa7c8cac-fa99-4d8a-9238-3337eaaa9d02")
 	)
-	(global_label "Z_AXIS"
+	(global_label "EN"
 		(shape input)
 		(at 266.7 120.65 270)
 		(fields_autoplaced yes)
@@ -538,7 +538,7 @@
 		)
 		(uuid "6a76f0ac-e2b7-4a0b-8461-31b954f60ff0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 129.9247 90)
+			(at 266.7 126.1147 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
