@@ -1,164 +1,23 @@
 ** Drc report for DeflectionBoard.kicad_pcb **
-** Created on 2026-06-15T00:42:09 **
-** Report includes: Errors **
+** Created on 2026-06-15T13:19:47 **
+** Report includes: Errors, Warnings **
 
-** Found 44 DRC violations **
-[shorting_items]: Items shorting two nets (nets  and GND)
-    Local override; error
-    @(140.1150 mm, 48.9950 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
-[shorting_items]: Items shorting two nets (nets  and GND)
-    Local override; error
-    @(140.1150 mm, 51.3050 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
-[shorting_items]: Items shorting two nets (nets  and GND)
-    Local override; error
-    @(140.4650 mm, 48.9950 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
-[shorting_items]: Items shorting two nets (nets  and GND)
-    Local override; error
-    @(140.4650 mm, 51.3050 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(120.3580 mm, 84.5312 mm): PTH pad 9 [GND] of U301
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(121.1580 mm, 82.8062 mm): PTH pad 9 [GND] of U301
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(121.1580 mm, 84.5312 mm): PTH pad 9 [GND] of U301
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(121.1580 mm, 86.2562 mm): PTH pad 9 [GND] of U301
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(121.9580 mm, 84.5312 mm): PTH pad 9 [GND] of U301
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(115.9748 mm, 93.6032 mm): PTH pad 9 [GND] of U302
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(116.7748 mm, 91.8782 mm): PTH pad 9 [GND] of U302
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(116.7748 mm, 93.6032 mm): PTH pad 9 [GND] of U302
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(116.7748 mm, 95.3282 mm): PTH pad 9 [GND] of U302
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(117.5748 mm, 93.6032 mm): PTH pad 9 [GND] of U302
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(116.5039 mm, 60.4710 mm): PTH pad 9 [GND] of U201
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(117.3040 mm, 58.7460 mm): PTH pad 9 [GND] of U201
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(117.3040 mm, 60.4710 mm): PTH pad 9 [GND] of U201
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(117.3040 mm, 62.1960 mm): PTH pad 9 [GND] of U201
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(118.1040 mm, 60.4710 mm): PTH pad 9 [GND] of U201
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(126.4039 mm, 60.4710 mm): PTH pad 9 [GND] of U202
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(127.2040 mm, 58.7460 mm): PTH pad 9 [GND] of U202
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(127.2040 mm, 60.4710 mm): PTH pad 9 [GND] of U202
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(127.2040 mm, 62.1960 mm): PTH pad 9 [GND] of U202
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)
-    Rule: board setup constraints; error
-    @(128.0040 mm, 60.4710 mm): PTH pad 9 [GND] of U202
-[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(121.1580 mm, 82.8062 mm): PTH pad 9 [GND] of U301
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(144.9075 mm, 70.1200 mm): Pad 3 [GND] of U206 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(116.5039 mm, 60.4710 mm): PTH pad 9 [GND] of U201
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(122.4280 mm, 79.7052 mm): Pad 2 [GND] of C304 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(117.2548 mm, 98.1032 mm): Pad 2 [GND] of C309 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(139.7200 mm, 44.1000 mm): Pad 2 [GND] of C104 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(113.6468 mm, 93.0572 mm): Pad 2 [GND] of C305 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(144.7950 mm, 81.1200 mm): Pad 3 [GND] of U208 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(116.7748 mm, 93.6032 mm): PTH pad 9 [GND] of U302
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(116.7748 mm, 93.6032 mm): Pad 9 [GND] of U302 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(117.3040 mm, 60.4710 mm): PTH pad 9 [GND] of U201
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(142.5082 mm, 95.4786 mm): Pad 4 [GND] of U304 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(127.2040 mm, 60.4710 mm): PTH pad 9 [GND] of U202
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(127.2040 mm, 60.4710 mm): Pad 9 [GND] of U202 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(126.7650 mm, 73.1850 mm): Pad 2 [GND] of U203 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(97.6884 mm, 37.3380 mm): Zone [GND] on F.Cu and B.Cu, priority 0
-    @(111.2084 mm, 93.0572 mm): Pad 2 [GND] of C306 on F.Cu
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(140.1150 mm, 48.9950 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(140.1150 mm, 51.3050 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(140.4650 mm, 48.9950 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    Rule: board setup solder mask min width; error
-    @(140.4650 mm, 51.3050 mm): Polygon [<no net>] of U101 on F.Cu
-    @(140.2900 mm, 50.1500 mm): Pad 15 [GND] of U101 on F.Cu
+** Found 5 DRC violations **
+[lib_footprint_mismatch]: Footprint 'DPC0008A' does not match copy in library 'vectrex repro'
+    Local override; warning
+    @(131.6410 mm, 118.4647 mm): Footprint U302
+[lib_footprint_mismatch]: Footprint 'DPC0008A' does not match copy in library 'vectrex repro'
+    Local override; warning
+    @(119.1555 mm, 118.7347 mm): Footprint U301
+[lib_footprint_mismatch]: Footprint 'DPC0008A' does not match copy in library 'vectrex repro'
+    Local override; warning
+    @(119.3884 mm, 94.3597 mm): Footprint U201
+[lib_footprint_mismatch]: Footprint 'DPC0008A' does not match copy in library 'vectrex repro'
+    Local override; warning
+    @(131.8739 mm, 94.0897 mm): Footprint U202
+[lib_footprint_mismatch]: Footprint 'PWP14' does not match copy in library 'vectrex repro'
+    Local override; warning
+    @(131.8307 mm, 71.7350 mm): Footprint U101
 
 ** Found 0 unconnected pads **
 
