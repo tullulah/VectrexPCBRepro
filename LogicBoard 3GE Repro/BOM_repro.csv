@@ -1,0 +1,34 @@
+Designator,Original,Repro Part,Package,Notes
+IC201,2363 mask ROM,27C512,PLCC-32 (socket),BIOS 8KB in 64KB EPROM; A13/14/15 to bank-select jumpers; /CE=nROMS /OE=nROMOE
+U_DECODE,74LS00 + 74LS32,ATF16V8,DIP-20 / SOIC-20,NEW - single GAL replaces both glue chips; logic in gal/vectrex_decode.pld
+IC202,74LS00,(removed),-,Absorbed into U_DECODE ATF16V8
+IC203,74LS32,(removed),-,Absorbed into U_DECODE ATF16V8
+IC204,2114,CY62256,SOP-28,Single SRAM replaces both 2114s; /CE=nRAMS /WE=RAM_nWE /OE=GND; A10-A14=GND
+IC205,2114,(removed),-,Merged into IC204 CY62256
+IC206,68A09,MC68B09 / 68A09,DIP-40,CPU - keep (R65C09/W65C09 also OK)
+IC207,6522,W65C22 / R65C22,DIP-40,VIA - keep; CS1(pin24)=A12 CS2(pin23)=nIOS
+IC208,AY3-8912,YM2149F,DIP-40,Sound - 40-pin clone; port A=SW0-7; TEST1(39)=GND for clones
+IC301,MC1408,MC1408 / DAC0808,DIP-16,DAC - keep (fed by 6522 port A = P0-7)
+IC302,CD4052B,CD4052B,DIP-16,Analog mux - keep
+IC303,LF347,LF347,DIP-14,Quad opamp (integrators) - keep
+IC304,LF353,LF353,DIP-8,Dual opamp - keep
+IC305,4066,CD4066B,DIP-14,Analog switch - keep
+Q301,2N3905,2N3905,TO-92/SOT-23,PNP - keep
+Q302,2N3905,2N3905,TO-92/SOT-23,PNP - keep
+Q303,2N3904,2N3904,TO-92/SOT-23,NPN - keep
+D201,1N4148,1N4148,-,keep
+D301,1N4148,1N4148,-,keep
+D302,1N4148,1N4148,-,keep
+Y201,6MHz crystal,6MHz crystal,HC-49,CPU clock - keep
+J201,CART,CART edge,2x18,Cartridge connector; CARTS=J201.32
+J202,DB9_Male,DB9_Male,DE-9,Left controller
+J203,DB9_Male,DB9_Male,DE-9,Right controller
+J204,Power,Power,-,Power input
+J301,Video,Video,1x04,X_AXIS/Y_AXIS/Z_AXIS/GND -> MicroDeflect + HV board
+J302,Audio,Audio,-,Audio out
+SW_BANK,(new),DIP-switch 3-way,-,NEW - ROM A13/14/15 bank select (fast-boot)
+FB201/FB202,Ferrite bead,Ferrite bead,2 total,
+,,,,
+,,,,--- PASSIVES (from original; qty x value) ---
+,,,,R: 12x680 11x3.3k 5x33 5x10k 4x330k 4x33k 3x2.7k1% 3x1k 2x2.2k 2x10k1% 2x220 2x75 2x15k 2x3.3M 2x4.7k 1x22k 1x100 1x3.6k1% 1x6.8k 1x1M
+,,,,C: 28x0.1uF 17x1nF 6x10nF 2x20pF 2x47pF 2x100uF/16V 1x220uF/16V 1x22uF 1x22uF/16V 1x10uF/16V 1x4.7uF/16V 1x220pF

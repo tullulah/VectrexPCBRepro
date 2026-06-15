@@ -1,0 +1,49 @@
+Name      VectrexDecode ;
+PartNo    01 ;
+Date      2026-06-16 ;
+Revision  01 ;
+Designer  ClaudeCode ;
+Company   VectrexMicro ;
+Assembly  LogicBoard3GERepro ;
+Location  U_DECODE ;
+Device    g16v8 ;
+
+/* =========================================================
+   Vectrex LogicBoard address decode  (replaces 74LS00 + 74LS32)
+   Replicates the original Rev R6E memory map EXACTLY:
+     0x0000-0x7FFF  Cartridge   (CARTS)
+     0xC800-0xCFFF  RAM 1KB      (RAMS)   [mirrors, see note]
+     0xD000-0xD7FF  6522 VIA     (IOS & A12)
+     0xE000-0xFFFF  BIOS ROM 8KB (ROMS & ROMOE)
+   Target: ATF16V8 / GAL16V8 (combinatorial, simple mode, no feedback).
+   ========================================================= */
+
+/* ---------------- Inputs ---------------- */
+PIN 2  = A11 ;
+PIN 3  = A13 ;
+PIN 4  = A14 ;
+PIN 5  = A15 ;
+PIN 6  = E ;          /* 6809 E clock (bus valid when high) */
+PIN 7  = RnW ;        /* R/W : High=read, Low=write          */
+
+/* ---------------- Outputs (active LOW) ---------------- */
+PIN 12 = nROMS ;      /* -> 27C512 /CE   pin20                */
+PIN 13 = nROMOE ;     /* -> 27C512 /OE   pin22                */
+PIN 14 = nCARTS ;     /* -> cart  J201.32                     */
+PIN 15 = nIOS ;       /* -> 6522  /CS2   pin23                */
+PIN 16 = nRAMS ;      /* -> CY62256 /CE                       */
+PIN 17 = RAM_nWE ;    /* -> CY62256 /WE  (gated write)        */
+
+/* ---------------- Equations ---------------- */
+nROMS   = !(A15 & A14) ;
+nROMOE  = !(E & A13) ;
+nCARTS  = !(E & !A15) ;
+nIOS    = !(A15 & A14) # A13 ;
+nRAMS   = !(A11 & E) # !(A15 & A14) # A13 ;
+RAM_nWE = RnW # !(A11 & E) # !(A15 & A14) # A13 ;
+
+/* NOTE: 6522 CS1 (pin 24) = A12, wired OUTSIDE the GAL. That A12 term is
+   what separates RAM (0xC800, A12=0) from the VIA (0xD000, A12=1) inside
+   the IOS region. Original incomplete decode → RAM also mirrors at
+   0xD800-0xDFFF (latent overlap with a VIA image); Vectrex software never
+   touches it. Kept faithful for 100% compatibility. */
