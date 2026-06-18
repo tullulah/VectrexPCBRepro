@@ -922,6 +922,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Audio:LM386"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM386"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
+				(at 5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "single Power opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSSOP*P0.65mm* TSSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM386_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM386_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "GAIN"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "BYPASS"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "GAIN"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Analog_DAC:MC1408_DIP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4643,6 +4891,193 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13367,6 +13802,12 @@
 		(uuid "0dd1d66e-e042-4fac-88cc-70f23b48604d")
 	)
 	(junction
+		(at 499.11 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de947a1-6e4f-48db-a46f-8055723427de")
+	)
+	(junction
 		(at 107.95 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13463,6 +13904,12 @@
 		(uuid "2bfdefa5-a989-475e-82bd-556ca7d97d66")
 	)
 	(junction
+		(at 488.95 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "323bbd29-2383-4947-95f5-842fd8f49f8c")
+	)
+	(junction
 		(at 173.99 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13517,6 +13964,12 @@
 		(uuid "41e23ea9-d244-40eb-b0a3-df48940bc167")
 	)
 	(junction
+		(at 473.71 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "420ee240-f3d4-41b3-8ef9-e3f4dbcd9867")
+	)
+	(junction
 		(at 105.41 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13569,6 +14022,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49016aa0-5bef-4348-bd08-07469d5dc71c")
+	)
+	(junction
+		(at 491.49 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49bbfa8a-4caf-446e-902a-b0c1079cff6b")
 	)
 	(junction
 		(at 377.19 187.96)
@@ -14225,8 +14684,8 @@
 		(uuid "82f5fe98-eb53-44d9-97df-e45e88b102b9")
 	)
 	(no_connect
-		(at 160.02 140.97)
-		(uuid "8add8264-ee8f-4fef-a453-118e8b14e3a5")
+		(at 481.33 39.37)
+		(uuid "8b338d53-4d04-4bdb-8ef3-ab3141f5666b")
 	)
 	(no_connect
 		(at 114.3 83.82)
@@ -14235,6 +14694,10 @@
 	(no_connect
 		(at 316.23 74.93)
 		(uuid "96e41dd5-cb93-4af0-bec9-384b35e2d9f7")
+	)
+	(no_connect
+		(at 481.33 36.83)
+		(uuid "9b511fb1-d51a-4ab7-8b18-c6bd8077490c")
 	)
 	(no_connect
 		(at 316.23 72.39)
@@ -15848,6 +16311,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 26.67) (xy 491.49 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0944d1c6-8ddc-4747-a102-c8458830c874")
+	)
+	(wire
+		(pts
 			(xy 292.1 143.51) (xy 292.1 184.15)
 		)
 		(stroke
@@ -16178,6 +16651,16 @@
 	)
 	(wire
 		(pts
+			(xy 490.22 46.99) (xy 490.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109a4ae2-60a5-448b-8108-60473ca9fdb3")
+	)
+	(wire
+		(pts
 			(xy 287.02 138.43) (xy 287.02 184.15)
 		)
 		(stroke
@@ -16245,6 +16728,16 @@
 			(type default)
 		)
 		(uuid "11b6e7f7-911b-4789-ba9e-91efc4006411")
+	)
+	(wire
+		(pts
+			(xy 496.57 49.53) (xy 496.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cacc8d-cd59-4fe3-86fb-f528230e92be")
 	)
 	(wire
 		(pts
@@ -16848,6 +17341,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 34.29) (xy 496.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259c64b0-372d-4436-bd21-9aae5e3ed529")
+	)
+	(wire
+		(pts
 			(xy 336.55 52.07) (xy 336.55 40.64)
 		)
 		(stroke
@@ -16975,6 +17478,26 @@
 			(type default)
 		)
 		(uuid "2a97cbc6-fb8b-4756-bd26-62b27062d964")
+	)
+	(wire
+		(pts
+			(xy 481.33 50.8) (xy 483.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acfa7c3-a978-404e-be43-e7532b9e8478")
+	)
+	(wire
+		(pts
+			(xy 488.95 46.99) (xy 488.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b046112-39d8-4053-8d19-080a37dfb2d0")
 	)
 	(wire
 		(pts
@@ -17145,6 +17668,16 @@
 			(type default)
 		)
 		(uuid "304bd741-493b-49ee-a7e3-4b6dea444535")
+	)
+	(wire
+		(pts
+			(xy 472.44 50.8) (xy 476.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3060b4b2-e663-4ac8-968d-262f138a6d1f")
 	)
 	(wire
 		(pts
@@ -18358,6 +18891,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 46.99) (xy 490.22 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528079ca-1596-4cc4-ac44-79f99f3fda9a")
+	)
+	(wire
+		(pts
 			(xy 123.19 217.17) (xy 130.81 217.17)
 		)
 		(stroke
@@ -18435,6 +18978,16 @@
 			(type default)
 		)
 		(uuid "536e07bc-0f7a-407b-be8d-acc8c49fede2")
+	)
+	(wire
+		(pts
+			(xy 492.76 71.12) (xy 492.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a044c7-a762-4701-8c4d-4721a0673831")
 	)
 	(wire
 		(pts
@@ -18718,6 +19271,16 @@
 	)
 	(wire
 		(pts
+			(xy 494.03 12.7) (xy 494.03 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3957e0-8526-482d-941c-bf68c78f924e")
+	)
+	(wire
+		(pts
 			(xy 132.08 170.18) (xy 138.43 170.18)
 		)
 		(stroke
@@ -18765,6 +19328,16 @@
 			(type default)
 		)
 		(uuid "5bce6732-4026-40a9-a828-7e9b55a30ffd")
+	)
+	(wire
+		(pts
+			(xy 502.92 38.1) (xy 502.92 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd1bb7d-cff2-4f0c-96b8-e3f116130519")
 	)
 	(wire
 		(pts
@@ -19418,6 +19991,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 33.02) (xy 502.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f387436-1da1-46b6-822d-0347a0c2409b")
+	)
+	(wire
+		(pts
 			(xy 83.82 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -19455,6 +20038,16 @@
 			(type default)
 		)
 		(uuid "70b4c23c-ea40-408c-92b3-a80785766d7e")
+	)
+	(wire
+		(pts
+			(xy 481.33 34.29) (xy 481.33 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d265d6-deca-465c-b338-9db42a0e393b")
 	)
 	(wire
 		(pts
@@ -19678,6 +20271,16 @@
 	)
 	(wire
 		(pts
+			(xy 473.71 29.21) (xy 473.71 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7832f4d6-2e32-48aa-a997-d98b15643f54")
+	)
+	(wire
+		(pts
 			(xy 24.13 140.97) (xy 26.67 140.97)
 		)
 		(stroke
@@ -19758,6 +20361,16 @@
 	)
 	(wire
 		(pts
+			(xy 499.11 31.75) (xy 499.11 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a386aff-71d0-4be5-99f7-5068590114c3")
+	)
+	(wire
+		(pts
 			(xy 46.99 151.13) (xy 49.53 151.13)
 		)
 		(stroke
@@ -19785,6 +20398,16 @@
 			(type default)
 		)
 		(uuid "7addb4b2-e66d-41f4-9b83-793c2ec102f0")
+	)
+	(wire
+		(pts
+			(xy 496.57 36.83) (xy 496.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af792c6-8ad4-45fb-ae05-04472020261b")
 	)
 	(bus
 		(pts
@@ -19878,6 +20501,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 31.75) (xy 473.71 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d789cf0-d675-4d54-a2e1-7ddebabf67c4")
+	)
+	(wire
+		(pts
 			(xy 367.03 172.72) (xy 367.03 170.18)
 		)
 		(stroke
@@ -19905,6 +20538,16 @@
 			(type default)
 		)
 		(uuid "7f2fe803-1717-4d8b-8741-d2d6d0d6812e")
+	)
+	(wire
+		(pts
+			(xy 478.79 26.67) (xy 491.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4267c7-61d6-43af-9344-568aedd405b4")
 	)
 	(bus
 		(pts
@@ -20816,6 +21459,16 @@
 		)
 		(uuid "9744c87e-1b95-4b41-81c5-144ed840543e")
 	)
+	(wire
+		(pts
+			(xy 491.49 22.86) (xy 491.49 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97498e07-06da-4467-b3e4-d99d466085cb")
+	)
 	(bus
 		(pts
 			(xy 224.79 20.32) (xy 231.14 20.32)
@@ -21338,6 +21991,26 @@
 	)
 	(wire
 		(pts
+			(xy 490.22 64.77) (xy 490.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1826d7b-89dc-4291-b178-a7f3798c1a63")
+	)
+	(wire
+		(pts
+			(xy 491.49 12.7) (xy 491.49 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a03c6f-62c1-4990-a73a-0e4814863d1e")
+	)
+	(wire
+		(pts
 			(xy 332.74 57.15) (xy 361.95 57.15)
 		)
 		(stroke
@@ -21795,6 +22468,16 @@
 			(type default)
 		)
 		(uuid "aea4e769-79f3-4f43-a498-086f92c166f6")
+	)
+	(wire
+		(pts
+			(xy 486.41 29.21) (xy 473.71 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeaafdb1-f08a-4e38-81bc-cce426e37d32")
 	)
 	(bus
 		(pts
@@ -22418,6 +23101,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 15.24) (xy 488.95 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd54b9f6-b71f-4707-93e4-a839ed596120")
+	)
+	(wire
+		(pts
 			(xy 284.48 67.31) (xy 290.83 67.31)
 		)
 		(stroke
@@ -22555,6 +23248,16 @@
 			(type default)
 		)
 		(uuid "c1819ec4-16c4-4ca2-a3c6-660ab0af6d34")
+	)
+	(wire
+		(pts
+			(xy 488.95 44.45) (xy 488.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c975c0-818e-4ba4-a7b0-6039096630eb")
 	)
 	(wire
 		(pts
@@ -23568,6 +24271,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 15.24) (xy 488.95 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfef79c5-6dd1-4e85-b89f-dd90764996b4")
+	)
+	(wire
+		(pts
 			(xy 168.91 58.42) (xy 173.99 58.42)
 		)
 		(stroke
@@ -23655,6 +24368,16 @@
 			(type default)
 		)
 		(uuid "e297a7e3-8efc-42f1-a14e-b6f66a1889af")
+	)
+	(wire
+		(pts
+			(xy 490.22 68.58) (xy 492.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a911fc-7478-484f-9586-48ef93e9ae8a")
 	)
 	(wire
 		(pts
@@ -24065,6 +24788,16 @@
 			(type default)
 		)
 		(uuid "ef00e02c-47d1-402d-90b8-bf024cdacbbb")
+	)
+	(wire
+		(pts
+			(xy 499.11 33.02) (xy 499.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef358901-1bd0-4406-aff6-7be43a6c37d8")
 	)
 	(wire
 		(pts
@@ -24565,6 +25298,16 @@
 			(type default)
 		)
 		(uuid "fb26eb07-b6a0-4674-99ee-bce5272b2f8c")
+	)
+	(wire
+		(pts
+			(xy 469.9 26.67) (xy 473.71 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb277a4b-96ef-4c0a-918a-80f034be499d")
 	)
 	(wire
 		(pts
@@ -27236,6 +27979,16 @@
 		)
 		(uuid "c92eb30d-b971-4421-a65b-bface4b1ca0f")
 	)
+	(label "AUDIO"
+		(at 487.68 15.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbbac167-f9f9-4067-87c1-adc315827ce3")
+	)
 	(label "VREF-"
 		(at 382.27 54.61 0)
 		(effects
@@ -27317,12 +28070,12 @@
 		(uuid "d1da60fa-2462-4a63-a4d1-04f7b6885589")
 	)
 	(label "AUDIO"
-		(at 158.75 138.43 180)
+		(at 160.02 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d379e029-2fe7-4e02-ba7f-62089b4071eb")
 	)
@@ -27921,7 +28674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_LCC:PLCC-32_THT-Socket"
 			(at 158.75 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -28510,7 +29263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 53.34 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -28705,7 +29458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -29024,6 +29777,98 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 496.57 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b9749e4-8955-4501-81db-4a3a12a33a88")
+		(property "Reference" "C330"
+			(at 498.9068 45.8216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 498.9068 48.133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 496.57 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 496.57 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 496.57 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "581-SR215C104k"
+			(at 558.8 1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5c7960d-f221-42d5-8cbb-3cb5162de7ee")
+		)
+		(pin "2"
+			(uuid "6a7345e5-aa2c-45c2-a4f2-267efc52fb45")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C330")
 					(unit 1)
 				)
 			)
@@ -29623,6 +30468,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 499.11 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13f3a626-c369-4140-9eac-b57c4ed45e37")
+		(property "Reference" "#PWR0229"
+			(at 499.11 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 499.11 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 499.11 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4c59489-5118-4e1a-95f1-9f4710baee76")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 363.22 29.21 180)
 		(unit 1)
@@ -29825,7 +30747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 375.158 238.76 90)
 			(hide yes)
 			(show_name no)
@@ -29988,7 +30910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 27.94 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -30106,7 +31028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 156.21 186.055 0)
 			(hide yes)
 			(show_name no)
@@ -30216,7 +31138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 387.858 238.76 90)
 			(hide yes)
 			(show_name no)
@@ -30996,7 +31918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_LCC:PLCC-44_SMD-Socket"
 			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -31915,7 +32837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 372.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -32127,7 +33049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 194.31 191.135 0)
 			(hide yes)
 			(show_name no)
@@ -32662,6 +33584,88 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 497.84 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3244f677-7054-4c58-acb5-35e4f74baef4")
+		(property "Reference" "J303"
+			(at 500.38 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 500.38 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 497.84 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 497.84 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d52ec99-e4ed-469c-91e1-94fb71bb0292")
+		)
+		(pin "2"
+			(uuid "5738894e-1cee-4bb6-986e-7a07736cb9c2")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J303")
 					(unit 1)
 				)
 			)
@@ -33525,6 +34529,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 476.25 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c2e56d7-98f3-414d-a58e-1e25b6520cfd")
+		(property "Reference" "R348"
+			(at 476.25 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 476.25 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 476.25 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 476.25 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 476.25 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d4a71ba-d65a-4d66-bb82-e4a90649f419")
+		)
+		(pin "2"
+			(uuid "815b499f-50b9-4326-9f41-19a446c6e04a")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R348")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 372.11 25.4 0)
 		(unit 1)
@@ -33602,6 +34686,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 491.49 20.32 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d9de035-978a-4c1b-9208-f6855c6b031f")
+		(property "Reference" "C329"
+			(at 493.8268 19.1516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 493.8268 21.463 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 491.49 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 491.49 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "581-SR215C104k"
+			(at 553.72 -25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec4127c6-856c-488e-a0fe-2d6e9c485526")
+		)
+		(pin "2"
+			(uuid "b9b0cd24-32d8-4369-934f-643f7a91a762")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 267.97 124.46 0)
 		(unit 1)
@@ -33632,7 +34808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 267.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -33865,6 +35041,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 469.9 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "411ffd42-64f6-40b4-abaa-7ceaa9b9f36a")
+		(property "Reference" "#PWR0232"
+			(at 469.9 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 469.9 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 469.9 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 469.9 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 469.9 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1bac658-c64c-4e66-9d1c-f54ff479c28f")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 289.56 59.69 270)
 		(unit 1)
@@ -33972,7 +35225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 199.39 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -34735,7 +35988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 161.29 261.62 90)
 			(hide yes)
 			(show_name no)
@@ -34926,7 +36179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 255.27 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -35584,96 +36837,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 133.35 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bf509f6-5b18-4205-aa96-c343395c05ce")
-		(property "Reference" "C323"
-			(at 133.35 132.715 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7uF 16V"
-			(at 133.35 135.0264 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 133.35 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 133.35 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "647-UkT1E4R7MDD1TD"
-			(at 157.48 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be01e447-5c86-4ab2-ae56-c5d18751119e")
-		)
-		(pin "2"
-			(uuid "4c4eb1a8-41cb-492c-99f8-6314571f244e")
-		)
-		(instances
-			(project "LogicBoard 3GE Repro"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C323")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 241.3 119.38 270)
 		(unit 1)
@@ -35706,7 +36869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -36272,88 +37435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 165.1 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c58f9c-6f6c-42a6-b60d-9ae72a043c48")
-		(property "Reference" "J302"
-			(at 167.64 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Audio"
-			(at 167.64 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 165.1 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 165.1 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58941ce5-e8b4-42aa-b110-a394be27ce59")
-		)
-		(pin "2"
-			(uuid "9f952ef0-458a-4efb-b0a9-1f936369eaaa")
-		)
-		(instances
-			(project "LogicBoard 3GE Repro"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 101.6 27.94 0)
 		(unit 1)
@@ -36431,6 +37512,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54ebdf1d-54db-4294-a86d-7a0d2be96c72")
+		(property "Reference" "C228"
+			(at 234.95 128.2762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 234.95 130.8162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 232.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed6f3973-74ab-458c-ac8a-f27c462ba29e")
+		)
+		(pin "1"
+			(uuid "9bd01f7c-3122-4319-8472-7088b5dbf2f4")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC74")
 		(at 78.74 236.22 0)
 		(unit 3)
@@ -36464,7 +37627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 78.74 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -36747,7 +37910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 199.39 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -36952,7 +38115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 29.21 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -37338,98 +38501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 67.31 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c470add-b449-455e-95fc-baae46d35c85")
-		(property "Reference" "C227"
-			(at 69.5452 33.1216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 69.5452 35.433 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "647-UPW1A220MDD6TP"
-			(at 6.35 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddbdf308-7274-4126-9ece-b0701f6ccece")
-		)
-		(pin "2"
-			(uuid "a1829870-35f9-42a4-85e5-1fc46eb765ad")
-		)
-		(instances
-			(project "LogicBoard 3GE Repro"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 332.74 153.67 90)
 		(unit 1)
@@ -37594,6 +38665,83 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R340")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 502.92 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "609bed3c-ac14-4ba9-bf62-f4f327fdc2aa")
+		(property "Reference" "#PWR0227"
+			(at 502.92 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 502.92 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 502.92 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 502.92 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 502.92 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "829a090f-ed75-41d6-8502-65839d1e56cd")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -37782,87 +38930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 232.41 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63aad061-46e0-4418-b6c3-6ea37acdfe80")
-		(property "Reference" "C228"
-			(at 234.95 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF 16V"
-			(at 234.95 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 232.41 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 232.41 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "266eb575-9e69-4c2e-bafa-e46d2ee4eb01")
-		)
-		(pin "2"
-			(uuid "c8d88669-3846-41bc-a883-d4f466347828")
-		)
-		(instances
-			(project "LogicBoard 3GE Repro"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C228")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 135.89 147.32 270)
 		(unit 1)
@@ -37947,6 +39014,105 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Audio:LM386")
+		(at 488.95 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65153a2f-e803-4dfe-b446-790776f3208e")
+		(property "Reference" "IC306"
+			(at 483.108 22.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM386"
+			(at 483.108 24.638 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm386.pdf"
+			(at 494.03 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8"
+			(at 488.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "12cfeb1a-89d5-4de8-bf84-610baed6fef0")
+		)
+		(pin "8"
+			(uuid "3c86efd1-a70e-4ce7-91aa-3db02adc62cd")
+		)
+		(pin "3"
+			(uuid "95ddfca7-0c1a-473c-91bb-f03fdf7844da")
+		)
+		(pin "6"
+			(uuid "be451362-6b8e-4ba4-a495-e4c78872a073")
+		)
+		(pin "5"
+			(uuid "6e8be1cf-4f53-449e-ab25-b849a66116e3")
+		)
+		(pin "7"
+			(uuid "724cc808-2386-4412-b460-38b6e6e59280")
+		)
+		(pin "1"
+			(uuid "55f3a730-5e3f-4b2a-8091-e32339a4ae16")
+		)
+		(pin "2"
+			(uuid "bdb3ac8f-6228-42bd-8650-39b124807ee2")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "IC306")
 					(unit 1)
 				)
 			)
@@ -39238,6 +40404,83 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 496.57 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "752766fb-eb36-4137-9a00-fd3f920a6c18")
+		(property "Reference" "#PWR0230"
+			(at 496.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 496.57 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 496.57 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 496.57 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 496.57 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca7afa1c-c9f6-4c54-a83d-e6040e9be2e8")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 215.9 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -39557,7 +40800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cade66f-af9a-422c-8e31-64f6c4424067")
-		(property "Reference" "OSC1"
+		(property "Reference" "Y201"
 			(at 45.72 200.5898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39577,7 +40820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
 			(at 54.61 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -39625,7 +40868,7 @@
 		(instances
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "OSC1")
+					(reference "Y201")
 					(unit 1)
 				)
 			)
@@ -39899,7 +41142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_LCC:PLCC-44_SMD-Socket"
 			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -40102,7 +41345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 190.5 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -40231,7 +41474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 146.05 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -40681,7 +41924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 381.508 238.76 90)
 			(hide yes)
 			(show_name no)
@@ -40818,7 +42061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89ac5bf3-7549-47ce-b608-40b2c031780d")
-		(property "Reference" "U1"
+		(property "Reference" "IC202"
 			(at 38.9733 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40840,7 +42083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 36.83 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -40936,7 +42179,7 @@
 		(instances
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1")
+					(reference "IC202")
 					(unit 1)
 				)
 			)
@@ -41363,7 +42606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vectrex LogicBoard:SULLINS_EBC18DRAS"
 			(at 38.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -41983,7 +43226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 227.33 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -42592,7 +43835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 85.09 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -43188,7 +44431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-28_8.4x18.16mm_P1.27mm"
 			(at 207.01 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -43987,6 +45230,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 473.71 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a30f2233-2de9-4069-86a4-e313e4e9fd42")
+		(property "Reference" "#PWR0157"
+			(at 473.71 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 473.71 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 473.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 473.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 473.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3f8fa48-c102-4353-b8a8-a1ad5826aaeb")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Vectrex LogicBoard:Opamp_Dual_Generic")
 		(at 242.57 231.14 0)
 		(unit 3)
@@ -44019,7 +45339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 242.57 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -44502,6 +45822,83 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 492.76 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9f89a5d-3f84-41ac-a636-212a1ce8751b")
+		(property "Reference" "#PWR0233"
+			(at 492.76 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 492.76 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 492.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 492.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 492.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba31120b-3c79-4b4b-b862-ea8420ce8512")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -45620,7 +47017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 190.5 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -46284,6 +47681,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 494.03 13.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba4c3cd9-6c7e-4236-b662-78238d65c835")
+		(property "Reference" "#PWR0234"
+			(at 494.03 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 494.03 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 494.03 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 494.03 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 494.03 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c8e1dfa-db1a-4b00-a2c3-4a0c0e07c83f")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 118.11 88.9 0)
 		(unit 1)
@@ -46868,7 +48342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 163.83 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -47087,7 +48561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 163.83 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -47178,6 +48652,98 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "IC305")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 478.79 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c31da42c-bbfb-4999-9050-468bb555405c")
+		(property "Reference" "C333"
+			(at 476.3643 44.8691 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 476.3643 47.1805 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 478.79 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 478.79 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 478.79 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "581-SR215C104k"
+			(at 433.07 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02c9579e-06d1-44ad-a2e4-206b1382b13c")
+		)
+		(pin "2"
+			(uuid "d5939cae-6656-46ba-81f6-f151ad0606d3")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C333")
+					(unit 1)
 				)
 			)
 		)
@@ -47474,7 +49040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
 			(at 320.04 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -47806,6 +49372,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 67.31 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9e15bf2-b1ab-4b49-a242-3d3ffd5c097e")
+		(property "Reference" "C227"
+			(at 69.85 33.0262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 69.85 35.5662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 67.31 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f70f33ae-0368-4a8c-b54a-f683102935c8")
+		)
+		(pin "2"
+			(uuid "3922a0f7-f0ae-4f9b-b73f-4ce25f0d5ce0")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 208.28 181.61 0)
 		(mirror x)
@@ -48115,7 +49763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 52.07 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -48291,7 +49939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 354.33 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -48488,7 +50136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 114.3 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -48711,6 +50359,86 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 133.35 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce2a8059-3e11-4b78-b193-cd79cf718d30")
+		(property "Reference" "C323"
+			(at 133.3563 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF 16V"
+			(at 133.3563 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 133.35 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94a6cf72-6e79-471e-ac69-d90af39eb659")
+		)
+		(pin "2"
+			(uuid "388b6985-1399-493e-9c4b-9b72f02fb5a0")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C323")
 					(unit 1)
 				)
 			)
@@ -49040,6 +50768,86 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 486.41 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b63970-530a-482d-8eb0-99e248303de5")
+		(property "Reference" "R347"
+			(at 486.41 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 486.41 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 486.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 486.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 486.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "501da9d7-d949-4f52-89d2-d2eb27a2f51a")
+		)
+		(pin "2"
+			(uuid "a5f40d87-8f4a-4871-bf24-1c9dd4c2be13")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R347")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 162.56 275.59 270)
 		(unit 1)
 		(body_style 1)
@@ -49277,6 +51085,88 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 490.22 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6fc0c1c-1525-4ac4-8e7f-89c66644bbc3")
+		(property "Reference" "C332"
+			(at 492.76 60.4138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized_Small"
+			(at 492.76 62.9538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 490.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 490.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75fb4c38-03a9-49e9-90c4-74182714745d")
+		)
+		(pin "1"
+			(uuid "04ba63b0-7128-42cb-8771-84d89e21bb4a")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C332")
 					(unit 1)
 				)
 			)
@@ -49604,6 +51494,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 502.92 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9efedea-5af4-4748-98c9-56222262d578")
+		(property "Reference" "C331"
+			(at 505.2568 34.3916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 505.2568 36.703 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 502.92 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 502.92 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 502.92 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "581-SR215C104k"
+			(at 565.15 -10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b230c905-e2bf-4351-b96e-471d8b793abe")
+		)
+		(pin "2"
+			(uuid "6a9ace30-fcc1-4fa0-acbf-2389d440013a")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 191.77 203.2 0)
 		(unit 1)
@@ -49817,7 +51799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 146.05 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -50446,7 +52428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 73.66 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -51767,7 +53749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 144.78 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -53001,6 +54983,168 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 472.44 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f064bc8e-e448-4910-98f1-9dd332c632eb")
+		(property "Reference" "#PWR0231"
+			(at 472.44 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 472.44 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 472.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 472.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 472.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fdec10d-928c-46f1-8fe8-936474206ef8")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 491.49 7.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f11a63d8-b068-4141-951c-615e6431ae4c")
+		(property "Reference" "J304"
+			(at 496.57 6.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Volume"
+			(at 496.57 8.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 491.49 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c6f074-a98b-484c-8ede-b58aa00baeec")
+		)
+		(pin "2"
+			(uuid "120cba90-7873-4553-a9dc-7b1462bcbc30")
+		)
+		(pin "3"
+			(uuid "62efcb1a-679b-4f11-bda6-fb961f1a13b4")
+		)
+		(instances
+			(project "LogicBoard 3GE Repro"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J304")
 					(unit 1)
 				)
 			)
