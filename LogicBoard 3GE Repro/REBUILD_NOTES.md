@@ -145,9 +145,13 @@ NC: 1,12,17,26
   each = jumper/DIP-switch to GND or +5V. Bank 0 (all GND) = BIOS at offset 0x0000.
 0.1uF decap between pin 32 and 16.
 
-## CY62256 (SOP-28) — wiring
-- A0–A9 → CPU A0–A9 ; A10–A14 → GND ; D0–D7 → data bus
-- /CE = `nRAMS` ; /WE = `RAM_nWE` ; **/OE = GND**
+## CY62256 (SOP-28) — exact pin map  (stock `Memory_RAM:CY62256-70PC`, ref IC204)
+Replaces BOTH 2114s (delete IC204+IC205, place one CY62256 as IC204).
+Address (bus): 10=A0 9=A1 8=A2 7=A3 6=A4 5=A5 4=A6 3=A7 25=A8 24=A9  → labels A0..A9
+Address high → GNDD: 21=A10 23=A11 2=A12 26=A13 1=A14  (only 1KB used)
+Data: 11=D0 12=D1 13=D2 15=D3 16=D4 17=D5 18=D6 19=D7  (all 8 on one chip now)
+Control: 20=/CS→`~{RAMS}`  27=/WE→`RAM_R~{W}`  22=/OE→GNDD  14=GND→GNDD  28=VCC→+5V
+0.1uF decap between 28 and 14.
 
 ## INTENTIONAL cross-connections — KEEP (these are NOT errors)
 Verified in the original; ERC will warn (multiple_net_names / net_not_bus_member)
