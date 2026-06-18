@@ -13820,12 +13820,6 @@
 		(uuid "102fbb12-d4c8-4888-9db7-366e53782a0b")
 	)
 	(junction
-		(at 151.13 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10cac22d-3f3b-403f-b4b7-06fb3b2eea3b")
-	)
-	(junction
 		(at 36.83 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14318,12 +14312,6 @@
 		(uuid "ae4ce05e-b33d-4ab5-abf9-ca3407ba8bdd")
 	)
 	(junction
-		(at 140.97 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af0c3389-d840-454a-bd30-19a5abe636af")
-	)
-	(junction
 		(at 323.85 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14358,6 +14346,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4318449-31d6-445d-be55-bf6c902f9b5a")
+	)
+	(junction
+		(at 140.97 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b683932b-95f4-40e4-b7e2-b8b5d2e67dd0")
 	)
 	(junction
 		(at 328.93 223.52)
@@ -16631,6 +16625,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 138.43) (xy 140.97 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f41f3a9-3895-4dc5-9a02-e227bfd66207")
+	)
+	(wire
+		(pts
 			(xy 355.6 153.67) (xy 355.6 184.15)
 		)
 		(stroke
@@ -17441,16 +17445,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 147.32) (xy 143.51 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0c4c42-99ab-452d-8d46-27d234ba4801")
-	)
-	(wire
-		(pts
 			(xy 45.72 55.88) (xy 55.88 55.88)
 		)
 		(stroke
@@ -18201,7 +18195,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 147.32) (xy 151.13 151.13)
+			(xy 151.13 144.78) (xy 151.13 151.13)
 		)
 		(stroke
 			(width 0)
@@ -18288,16 +18282,6 @@
 			(type default)
 		)
 		(uuid "403619a3-b13c-4f93-a53a-0c4247e30e87")
-	)
-	(wire
-		(pts
-			(xy 151.13 144.78) (xy 151.13 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4038385e-66c4-4188-ad0c-bc56fea45fb6")
 	)
 	(wire
 		(pts
@@ -19158,16 +19142,6 @@
 			(type default)
 		)
 		(uuid "56a51644-b55f-492b-aa38-d2c3e210984a")
-	)
-	(wire
-		(pts
-			(xy 140.97 147.32) (xy 140.97 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b3a017-61c0-4517-a3dd-b7cb5fe2f317")
 	)
 	(wire
 		(pts
@@ -22301,16 +22275,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 147.32) (xy 151.13 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abcec64e-7d00-40de-b1de-f61435a3b0d2")
-	)
-	(wire
-		(pts
 			(xy 189.23 46.99) (xy 194.31 46.99)
 		)
 		(stroke
@@ -23151,16 +23115,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 138.43) (xy 151.13 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed8fdb3-55de-41cb-8ed0-36fb7b44f718")
-	)
-	(wire
-		(pts
 			(xy 114.3 63.5) (xy 128.27 63.5)
 		)
 		(stroke
@@ -23538,6 +23492,16 @@
 			(type default)
 		)
 		(uuid "ca0f4d3f-7af7-4f4a-922b-06437eebe77c")
+	)
+	(wire
+		(pts
+			(xy 135.89 138.43) (xy 151.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9eac9c-da99-481b-90f8-9b55a160565d")
 	)
 	(wire
 		(pts
@@ -24951,16 +24915,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 138.43) (xy 146.05 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f26c2a27-ee02-454c-8bc8-e4795c69abef")
-	)
-	(wire
-		(pts
 			(xy 317.5 218.44) (xy 317.5 223.52)
 		)
 		(stroke
@@ -25548,16 +25502,6 @@
 			(type default)
 		)
 		(uuid "ff2c165b-fcf1-4e49-a130-75315ee7c31f")
-	)
-	(wire
-		(pts
-			(xy 140.97 138.43) (xy 135.89 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb05a23-7229-4765-8ae9-14a596cb7f05")
 	)
 	(wire
 		(pts
@@ -26748,16 +26692,6 @@
 			(justify right bottom)
 		)
 		(uuid "6fbc23a2-dc6d-4e23-a857-9caf6723fe84")
-	)
-	(label "CH(A+B+C)+DIGITAL_AUDIO"
-		(at 138.43 138.43 0)
-		(effects
-			(font
-				(size 0.0254 0.0254)
-			)
-			(justify left bottom)
-		)
-		(uuid "7039d357-12b8-41a3-8272-05351a4d31f4")
 	)
 	(label "RAM_R~{W}"
 		(at 220.98 69.85 0)
@@ -28308,16 +28242,6 @@
 			(justify left bottom)
 		)
 		(uuid "eba3e869-9c4e-40f7-aa3e-e2c1bcfc73f2")
-	)
-	(label "CH(A+B+C)"
-		(at 128.27 138.43 0)
-		(effects
-			(font
-				(size 0.0254 0.0254)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec323345-1dea-454b-affc-ca52a309fa19")
 	)
 	(label "A2"
 		(at 189.23 44.45 0)
@@ -30944,46 +30868,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "73c705a5-4b45-4610-acd4-43d0f62cf757")
+			(uuid "73c705a5-4b45-4610-acd4-43d0f62cf758")
 		)
 		(pin "9"
-			(uuid "4ca79506-6489-4c1e-b977-e9289a148670")
+			(uuid "4ca79506-6489-4c1e-b977-e9289a148671")
 		)
 		(pin "5"
-			(uuid "d29d73b3-02dd-473f-822e-de7d15960754")
+			(uuid "d29d73b3-02dd-473f-822e-de7d15960755")
 		)
 		(pin "11"
-			(uuid "4864e237-e1f1-40b7-8eef-1caa979013e3")
+			(uuid "4864e237-e1f1-40b7-8eef-1caa979013e4")
 		)
 		(pin "8"
-			(uuid "21f1b305-a4cb-4a22-a36e-9a18263f2b57")
+			(uuid "21f1b305-a4cb-4a22-a36e-9a18263f2b58")
 		)
 		(pin "14"
-			(uuid "9d33aba9-e5a6-481d-a07a-b4f4c70a3f38")
+			(uuid "9d33aba9-e5a6-481d-a07a-b4f4c70a3f39")
 		)
 		(pin "10"
-			(uuid "28536984-8f06-414d-a54f-a3a9925c349d")
+			(uuid "28536984-8f06-414d-a54f-a3a9925c349e")
 		)
 		(pin "7"
-			(uuid "29598675-be3f-49ef-acf2-ea0daf736be0")
+			(uuid "29598675-be3f-49ef-acf2-ea0daf736be1")
 		)
 		(pin "12"
-			(uuid "29ff47b7-a0cf-43a9-8638-e4289aa8508c")
+			(uuid "29ff47b7-a0cf-43a9-8638-e4289aa8508d")
 		)
 		(pin "6"
-			(uuid "111b570f-0a01-45c6-9009-ee7af07b06ef")
+			(uuid "111b570f-0a01-45c6-9009-ee7af07b06f0")
 		)
 		(pin "13"
-			(uuid "29b3538c-d575-4c22-ad94-89583f0edef4")
+			(uuid "29b3538c-d575-4c22-ad94-89583f0edef5")
 		)
 		(pin "4"
-			(uuid "a9c97fb2-3408-429c-aeac-c18bcef938f2")
+			(uuid "a9c97fb2-3408-429c-aeac-c18bcef938f3")
 		)
 		(pin "2"
-			(uuid "0018b8cf-027f-4f3e-b6cf-377da168e17a")
+			(uuid "0018b8cf-027f-4f3e-b6cf-377da168e17b")
 		)
 		(pin "3"
-			(uuid "f34d8a7d-255f-43ba-8a53-dab20a504322")
+			(uuid "f34d8a7d-255f-43ba-8a53-dab20a504323")
 		)
 		(instances
 			(project "LogicBoard 3GE Repro"
@@ -31507,133 +31431,6 @@
 			(project "LogicBoard 3GE Repro"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 146.05 147.32 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e8ca693-6248-4c7b-9932-9f4dba5f0a5b")
-		(property "Reference" "R326"
-			(at 146.05 150.1902 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.05 152.5016 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 146.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 146.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "531-PT10H-10k-S"
-			(at 113.03 303.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 146.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 146.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 146.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eff4c178-d6d9-479a-8e29-af99ed4e9947")
-		)
-		(pin "2"
-			(uuid "7c7a0dc8-7dec-4939-b773-8b8c0faa000d")
-		)
-		(pin "3"
-			(uuid "159c13ba-64af-4997-8f46-68346d86be0c")
-		)
-		(instances
-			(project "LogicBoard 3GE Repro"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R326")
 					(unit 1)
 				)
 			)
@@ -34560,7 +34357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 476.25 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -34808,7 +34605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 267.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -37661,46 +37458,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "73c705a5-4b45-4610-acd4-43d0f62cf757")
+			(uuid "73c705a5-4b45-4610-acd4-43d0f62cf759")
 		)
 		(pin "9"
-			(uuid "4ca79506-6489-4c1e-b977-e9289a148670")
+			(uuid "4ca79506-6489-4c1e-b977-e9289a148672")
 		)
 		(pin "5"
-			(uuid "d29d73b3-02dd-473f-822e-de7d15960754")
+			(uuid "d29d73b3-02dd-473f-822e-de7d15960756")
 		)
 		(pin "11"
-			(uuid "4864e237-e1f1-40b7-8eef-1caa979013e3")
+			(uuid "4864e237-e1f1-40b7-8eef-1caa979013e5")
 		)
 		(pin "8"
-			(uuid "21f1b305-a4cb-4a22-a36e-9a18263f2b57")
+			(uuid "21f1b305-a4cb-4a22-a36e-9a18263f2b59")
 		)
 		(pin "14"
-			(uuid "9d33aba9-e5a6-481d-a07a-b4f4c70a3f38")
+			(uuid "9d33aba9-e5a6-481d-a07a-b4f4c70a3f3a")
 		)
 		(pin "10"
-			(uuid "28536984-8f06-414d-a54f-a3a9925c349d")
+			(uuid "28536984-8f06-414d-a54f-a3a9925c349f")
 		)
 		(pin "7"
-			(uuid "29598675-be3f-49ef-acf2-ea0daf736be0")
+			(uuid "29598675-be3f-49ef-acf2-ea0daf736be2")
 		)
 		(pin "12"
-			(uuid "29ff47b7-a0cf-43a9-8638-e4289aa8508c")
+			(uuid "29ff47b7-a0cf-43a9-8638-e4289aa8508e")
 		)
 		(pin "6"
-			(uuid "111b570f-0a01-45c6-9009-ee7af07b06ef")
+			(uuid "111b570f-0a01-45c6-9009-ee7af07b06f1")
 		)
 		(pin "13"
-			(uuid "29b3538c-d575-4c22-ad94-89583f0edef4")
+			(uuid "29b3538c-d575-4c22-ad94-89583f0edef6")
 		)
 		(pin "4"
-			(uuid "a9c97fb2-3408-429c-aeac-c18bcef938f2")
+			(uuid "a9c97fb2-3408-429c-aeac-c18bcef938f4")
 		)
 		(pin "2"
-			(uuid "0018b8cf-027f-4f3e-b6cf-377da168e17a")
+			(uuid "0018b8cf-027f-4f3e-b6cf-377da168e17c")
 		)
 		(pin "3"
-			(uuid "f34d8a7d-255f-43ba-8a53-dab20a504322")
+			(uuid "f34d8a7d-255f-43ba-8a53-dab20a504324")
 		)
 		(instances
 			(project "LogicBoard 3GE Repro"
@@ -41133,7 +40930,7 @@
 		)
 		(property "Value" "6522"
 			(at 243.84 38.1 0)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
