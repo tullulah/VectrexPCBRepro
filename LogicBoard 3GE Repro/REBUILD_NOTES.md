@@ -73,6 +73,19 @@ sample-hold (Q301/302 2N3905, Q303 2N3904) + LF347/LF353 + 4066.
 CPU 68A09, VIA 6522, MC1408, CD4052B, LF347, LF353, 4066, transistors, diodes,
 passives.
 
+## Integrator caps (vector quality) — 3GE revision + styrene→C0G
+Original used STYRENE (polystyrene) caps in the vector-generator integrators for
+very low dielectric absorption (DA) — critical for clean vectors. SMD has no
+styrene → use **C0G/NP0 (Class 1) ceramic, 0603, 50V** (NEVER X7R/X5R: high DA +
+voltage coeff would degrade drawing). Per console5 wiki, values are revision-specific;
+this board is **3GE**, so:
+- **C304, C305, C306 = .0047uF (4.7nF)**  ← the reference schematic had these at
+  10nF (that's the 2GE/wrong value) — FIX to 4.7nF for 3GE.
+- C312, C313 = .01uF (10nF)
+(2GE: only C304=4.7nF. "Low-buzz MB" variant: C304/5/6=2.2nF/100V + C307=10nF, NOT
+styrene — only if replicating that specific board.) C229 (10nF, digital section) is
+NOT an integrator cap → ordinary X7R/0402 is fine.
+
 ---
 
 # CAPTURE SPEC (pin-by-pin) — ready for KiCad GUI

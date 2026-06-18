@@ -13201,7 +13201,7 @@
 	)
 	(text "CARTRIDGE\nRECEPTICLE"
 		(exclude_from_sim no)
-		(at 35.56 100.33 0)
+		(at 28.448 31.242 0)
 		(effects
 			(font
 				(size 1.9 1.9)
@@ -13297,6 +13297,19 @@
 			(justify left bottom)
 		)
 		(uuid "e6866fc9-27f1-483b-8604-31570e6b5506")
+	)
+	(text "JUMPERS\n"
+		(exclude_from_sim no)
+		(at 57.658 256.032 0)
+		(effects
+			(font
+				(size 1.9 1.9)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8eb9006-c71d-4292-8c2e-6664655c94c7")
 	)
 	(text "LEFT CONTROLLER"
 		(exclude_from_sim no)
@@ -16065,6 +16078,16 @@
 	)
 	(bus
 		(pts
+			(xy 227.33 21.59) (xy 227.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dad1204-d455-43ce-83f9-6f68795a2eb1")
+	)
+	(bus
+		(pts
 			(xy 78.74 20.32) (xy 81.28 22.86)
 		)
 		(stroke
@@ -17522,16 +17545,6 @@
 			(type default)
 		)
 		(uuid "397c6cd5-2023-41a9-bef9-f102871fa23d")
-	)
-	(bus
-		(pts
-			(xy 227.33 21.59) (xy 227.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39cb997a-3923-4595-afe4-c41cf4c7a6b8")
 	)
 	(wire
 		(pts
@@ -23873,16 +23886,6 @@
 		)
 		(uuid "ea198806-3881-4bac-9b51-3c502a53f9a5")
 	)
-	(bus
-		(pts
-			(xy 186.69 59.69) (xy 186.69 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea503fce-a42b-4d6f-a57e-adf1a6750fda")
-	)
 	(wire
 		(pts
 			(xy 383.54 74.93) (xy 383.54 77.47)
@@ -27744,7 +27747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -27825,7 +27828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -27918,7 +27921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-32_11.4x14.0mm_P1.27mm"
+		(property "Footprint" ""
 			(at 158.75 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -28090,7 +28093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -28259,7 +28262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -28702,7 +28705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P12.70mm_Horizontal"
+		(property "Footprint" ""
 			(at 165.1 241.3 90)
 			(hide yes)
 			(show_name no)
@@ -28816,7 +28819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 127 0)
 			(hide yes)
 			(show_name no)
@@ -28897,7 +28900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
@@ -28978,7 +28981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 292.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -29058,7 +29061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -29150,7 +29153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.7 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -29652,7 +29655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 363.22 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -29903,7 +29906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.62 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -30103,7 +30106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" ""
 			(at 156.21 186.055 0)
 			(hide yes)
 			(show_name no)
@@ -30292,7 +30295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 361.95 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -30450,7 +30453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.84 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -30619,7 +30622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:Potentiometer_UndLab_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 146.05 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -30745,7 +30748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -30814,7 +30817,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF C0G"
 			(at 194.31 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30824,7 +30827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -30993,7 +30996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -31572,7 +31575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.34 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -31664,7 +31667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -31831,7 +31834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.27 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -31912,7 +31915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" ""
 			(at 372.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -32124,7 +32127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" ""
 			(at 194.31 191.135 0)
 			(hide yes)
 			(show_name no)
@@ -32385,7 +32388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -32686,7 +32689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "4.7nF C0G"
 			(at 134.4168 176.403 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32697,7 +32700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 132.08 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -32942,7 +32945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -33034,7 +33037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -33192,7 +33195,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "4.7nF C0G"
 			(at 135.89 271.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33203,7 +33206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -33293,7 +33296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 270.51 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -33462,7 +33465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 270.51 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -33629,7 +33632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" ""
 			(at 267.97 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -33710,7 +33713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 377.19 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -33802,7 +33805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 259.08 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -33969,7 +33972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 199.39 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -34097,7 +34100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -34574,7 +34577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 232.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -34732,7 +34735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P12.70mm_Horizontal"
+		(property "Footprint" ""
 			(at 161.29 261.62 90)
 			(hide yes)
 			(show_name no)
@@ -34923,7 +34926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 255.27 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -35049,7 +35052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -35128,7 +35131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 367.03 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -35208,7 +35211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.84 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -35290,7 +35293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 59.69 207.0162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35301,7 +35304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 57.15 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -35611,7 +35614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -35703,7 +35706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-34_SOD68_P12.70mm_Horizontal"
+		(property "Footprint" ""
 			(at 241.3 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -35804,7 +35807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -36039,7 +36042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.76 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -36132,7 +36135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 383.54 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -36576,7 +36579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 281.94 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -36744,7 +36747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 199.39 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -37108,7 +37111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -37275,7 +37278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -37367,7 +37370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 67.31 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -37457,7 +37460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -37537,7 +37540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 340.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -37627,7 +37630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 373.38 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -37719,7 +37722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -37811,7 +37814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -37890,7 +37893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -37980,7 +37983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -38290,7 +38293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -38369,7 +38372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -38450,7 +38453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 297.18 127 0)
 			(hide yes)
 			(show_name no)
@@ -38606,7 +38609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -39174,7 +39177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P12.70mm_Horizontal_Fastron_MICC"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 45.212 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -39574,7 +39577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm"
+		(property "Footprint" ""
 			(at 54.61 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -39738,7 +39741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 350.52 127 0)
 			(hide yes)
 			(show_name no)
@@ -39896,7 +39899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 254 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -40099,7 +40102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 190.5 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -40228,7 +40231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 146.05 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -40354,7 +40357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -40837,7 +40840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" ""
 			(at 36.83 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -40973,7 +40976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.92 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -41360,7 +41363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:SULLINS_EBC18DRAS"
+		(property "Footprint" ""
 			(at 38.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -41709,7 +41712,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "4.7nF C0G"
 			(at 139.4968 213.233 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41720,7 +41723,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 137.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -41887,7 +41890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -41980,7 +41983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 227.33 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -42106,7 +42109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -42185,7 +42188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 381 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -42275,7 +42278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -42509,7 +42512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -42589,7 +42592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" ""
 			(at 85.09 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -42860,7 +42863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.09 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -43185,7 +43188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" ""
 			(at 207.01 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -43652,7 +43655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 355.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -43809,7 +43812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14-H5_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -43935,7 +43938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -44016,7 +44019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" ""
 			(at 242.57 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -44124,7 +44127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 187.96 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -44291,7 +44294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 82.55 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -44768,7 +44771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P12.70mm_Horizontal_Fastron_MICC"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 308.61 225.298 90)
 			(hide yes)
 			(show_name no)
@@ -44935,7 +44938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.24 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -45025,7 +45028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -45117,7 +45120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 275.59 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -45209,7 +45212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -45376,7 +45379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -45458,7 +45461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 356.87 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -45617,7 +45620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 190.5 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -45743,7 +45746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -46144,7 +46147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 356.87 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -46388,7 +46391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -46709,7 +46712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -46865,7 +46868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 163.83 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -46993,7 +46996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 383.54 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -47084,7 +47087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 163.83 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -47287,7 +47290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -47379,7 +47382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.72 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -47471,7 +47474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" ""
 			(at 320.04 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -47666,7 +47669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 375.92 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -47836,7 +47839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 208.28 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -47928,7 +47931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 52.07 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -48021,7 +48024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -48196,7 +48199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 275.59 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -48288,7 +48291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" ""
 			(at 354.33 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -48485,7 +48488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" ""
 			(at 114.3 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -48618,7 +48621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14-H5_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -48744,7 +48747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 367.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -48905,7 +48908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 345.44 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -48987,7 +48990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 317.5 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -49066,7 +49069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -49464,7 +49467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 107.95 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -49633,7 +49636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 191.77 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -49723,7 +49726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -49814,7 +49817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" ""
 			(at 146.05 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -49922,7 +49925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -50003,7 +50006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 68.58 237.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50014,7 +50017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -50095,7 +50098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -50185,7 +50188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 187.96 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -50275,7 +50278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -50525,7 +50528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -50772,7 +50775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 300.99 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -51010,7 +51013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 384.81 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -51179,7 +51182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 379.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -51436,7 +51439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 328.93 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -51517,7 +51520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.82 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -51684,7 +51687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -51764,7 +51767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 144.78 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -51890,7 +51893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.09 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -51983,7 +51986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 336.55 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -52073,7 +52076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 314.96 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -52308,7 +52311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.41 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -52478,7 +52481,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 208.28 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -52878,7 +52881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 302.26 127 0)
 			(hide yes)
 			(show_name no)
@@ -53034,7 +53037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -53126,7 +53129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -53219,7 +53222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA14-H5_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -53347,7 +53350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 52.07 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -53516,7 +53519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -53596,7 +53599,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF C0G"
 			(at 193.04 159.0548 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53606,7 +53609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -53698,7 +53701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -53933,7 +53936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.72 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -54025,7 +54028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 340.36 127 0)
 			(hide yes)
 			(show_name no)
@@ -54181,7 +54184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 311.15 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -54271,7 +54274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 332.74 158.75 0)
 			(hide yes)
 			(show_name no)
