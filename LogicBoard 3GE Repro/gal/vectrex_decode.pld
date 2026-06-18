@@ -33,6 +33,7 @@ PIN 14 = nCARTS ;     /* -> cart  J201.32                     */
 PIN 15 = nIOS ;       /* -> 6522  /CS2   pin23                */
 PIN 16 = nRAMS ;      /* -> CY62256 /CE                       */
 PIN 17 = RAM_nWE ;    /* -> CY62256 /WE  (gated write)        */
+PIN 18 = nE ;         /* -> cart J201.12 (inverted E clock)   */
 
 /* ---------------- Equations ---------------- */
 nROMS   = !(A15 & A14) ;
@@ -41,6 +42,8 @@ nCARTS  = !(E & !A15) ;
 nIOS    = !(A15 & A14) # A13 ;
 nRAMS   = !(A11 & E) # !(A15 & A14) # A13 ;
 RAM_nWE = RnW # !(A11 & E) # !(A15 & A14) # A13 ;
+nE      = !E ;        /* inverted E for the cartridge (J201.12); the original
+                         74LS00 gate A made this — fold it into the GAL */
 
 /* NOTE: 6522 CS1 (pin 24) = A12, wired OUTSIDE the GAL. That A12 term is
    what separates RAM (0xC800, A12=0) from the VIA (0xD000, A12=1) inside

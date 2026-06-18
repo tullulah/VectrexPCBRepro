@@ -98,11 +98,13 @@ Quartus / Atmel-ATMISP) to a JEDEC, burn the ATF16V8.
  5  A15               15  nIOS     -> 6522 /CS2   (pin 23)
  6  E  (6809 E clk)   16  nRAMS    -> CY62256 /CE
  7  RnW               17  RAM_nWE  -> CY62256 /WE
- 8  (unused in)       18  (unused out)
+ 8  (unused in)       18  nE       -> cart J201.12 (inverted E clock)
  9  (unused in)       19  (unused out)
 10  GND               20  VCC
 ```
 NOTE: 6522 CS1 (pin 24) = A12 — wire directly, NOT from the GAL.
+NOTE: `~{E}` (inverted E) goes to the CARTRIDGE (J201.12) — the original 74LS00
+gate A generated it. It's now GAL output pin 18 (`nE = !E`), not an unused pin.
 
 ## YM2149 (40-pin) ← AY-3-8912 net map  (connect each net to this YM2149 pin)
 | Net | YM2149 pin | | Net | YM2149 pin |
