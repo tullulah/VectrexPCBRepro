@@ -1,0 +1,58 @@
+ERC report (2026-06-18T15:29:41, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[label_multiple_wires]: Label connects more than one wire at 1409700, 203200
+    ; warning
+    @(5550 mils, 800 mils): Label '{A[0..15] D[0..7]}'
+    @(5550 mils, 900 mils): Bus, length 141 mils
+[lib_symbol_mismatch]: Symbol 'MountingHole_Pad' doesn't match copy in library 'Mechanical'
+    ; warning
+    @(9400 mils, 10400 mils): Symbol MNT1 [MountingHole_Pad]
+[lib_symbol_issues]: Symbol 'DB9_Male' not found in symbol library 'Connector'
+    ; warning
+    @(11700 mils, 7550 mils): Symbol J202 [DB9_Male]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(11950 mils, 700 mils): Vertical Wire, length 200 mils
+[multiple_net_names]: Both FIRQ and SW3 are attached to the same items; FIRQ will be used in the netlist
+    ; warning
+    @(3250 mils, 2700 mils): Label 'FIRQ'
+    @(12800 mils, 2050 mils): Label 'SW3'
+[net_not_bus_member]: Net /FIRQ is graphically connected to bus /SW[0..7] but is not a member of that bus
+    ; warning
+    @(12800 mils, 2050 mils): Bus to wire entry
+    @(12900 mils, 2050 mils): Vertical Bus, length 100 mils
+[multiple_net_names]: Both CA1 and SW7 are attached to the same items; CA1 will be used in the netlist
+    ; warning
+    @(10800 mils, 2500 mils): Label 'CA1'
+    @(12800 mils, 2450 mils): Label 'SW7'
+[net_not_bus_member]: Net /CA1 is graphically connected to bus /SW[0..7] but is not a member of that bus
+    ; warning
+    @(12800 mils, 2450 mils): Bus to wire entry
+    @(12900 mils, 2450 mils): Vertical Bus, length 100 mils
+[lib_symbol_issues]: Symbol 'DB9_Male' not found in symbol library 'Connector'
+    ; warning
+    @(13800 mils, 7550 mils): Symbol J203 [DB9_Male]
+[multiple_net_names]: Both -12VA and VEE are attached to the same items; -12VA will be used in the netlist
+    ; warning
+    @(14400 mils, 9450 mils): Symbol #PWR01 Hidden pin 1 [-12VA, Power input, Line]
+    @(14800 mils, 3050 mils): Label 'VEE'
+[multiple_net_names]: Both +5V and +5VA are attached to the same items; +5V will be used in the netlist
+    ; warning
+    @(2650 mils, 10350 mils): Symbol #PWR0213 Pin 1 [Power input, Line]
+    @(15100 mils, 1700 mils): Symbol #PWR0171 Pin 1 [Power input, Line]
+[multiple_net_names]: Both -5VA and -5V are attached to the same items; -5VA will be used in the netlist
+    ; warning
+    @(6050 mils, 7950 mils): Symbol #PWR0140 Pin 1 [Power input, Line]
+    @(15150 mils, 9000 mils): Label '-5V'
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(15050 mils, 2350 mils): Horizontal Wire, length 650 mils
+
+ ** ERC messages: 13  Errors 0  Warnings 13
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - Assigned footprint doesn't match footprint filters

@@ -1080,7 +1080,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 10.16 -22.86 180)
 				(length 2.54)
 				(name "NC"
