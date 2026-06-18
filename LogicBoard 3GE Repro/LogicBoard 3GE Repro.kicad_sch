@@ -17085,16 +17085,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 86.36) (xy 127 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2eaf60-ac4f-415d-a40b-f24732f059f3")
-	)
-	(wire
-		(pts
 			(xy 173.99 45.72) (xy 168.91 45.72)
 		)
 		(stroke
@@ -18755,7 +18745,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 86.36) (xy 118.11 86.36)
+			(xy 114.3 86.36) (xy 119.38 86.36)
 		)
 		(stroke
 			(width 0)
@@ -22955,6 +22945,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6c4e67-de0b-4fb9-9d12-dde104b8c77f")
+	)
+	(wire
+		(pts
 			(xy 289.56 163.83) (xy 312.42 163.83)
 		)
 		(stroke
@@ -24963,7 +24963,7 @@
 		)
 		(uuid "0c23fd3c-8e92-44f9-9905-f0d6b673c1e2")
 	)
-	(label "CPU_R~{W}"
+	(label "R~{W}"
 		(at 127 86.36 0)
 		(effects
 			(font
@@ -25572,6 +25572,16 @@
 			(justify left bottom)
 		)
 		(uuid "491b2ef6-7f24-4722-9a89-577ced6e1d65")
+	)
+	(label "CPU_R~{W}"
+		(at 119.38 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "496d87b9-d00e-4d6f-886b-b16836b3dfea")
 	)
 	(label "D7"
 		(at 224.79 57.15 180)
@@ -40315,7 +40325,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 120.65 86.36 270)
+		(at 121.92 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40325,7 +40335,7 @@
 		(dnp no)
 		(uuid "82ef8600-aff7-4e4e-83cc-272869fe14ce")
 		(property "Reference" "R217"
-			(at 120.65 84.582 90)
+			(at 121.92 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40335,7 +40345,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 120.65 88.138 90)
+			(at 121.92 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40345,7 +40355,7 @@
 			)
 		)
 		(property "Footprint" "Vectrex LogicBoard:R_Axial_DIN0207_L6.3mm_D2.5mm_P12.70mm_Horizontal"
-			(at 120.65 86.36 0)
+			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40356,7 +40366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 86.36 0)
+			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40367,7 +40377,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 86.36 0)
+			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40378,7 +40388,7 @@
 			)
 		)
 		(property "Mouser" "603-CFR-25JR-5233R"
-			(at 46.99 -30.48 0)
+			(at 48.26 -30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
