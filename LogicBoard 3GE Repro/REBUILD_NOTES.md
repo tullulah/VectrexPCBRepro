@@ -131,12 +131,19 @@ Tie-offs / clone + addressing:
   if audio is an octave off, move to GND. Bench-tune (not a boot blocker).
 - **IOB0–7 (pins 6–13) unused** → leave NC (Vectrex 8912 had no port B). Pins 2, 5 = NC.
 
-## 27C512 (PLCC-32) — bank-select wiring
-- A0–A12 → CPU A0–A12 ; D0–D7 → data bus
-- /CE = `nROMS` ; /OE = `nROMOE` ; Vcc/GND as symbol
-- **A13, A14, A15 → 3-way jumper/DIP-switch (each GND or +5V) = bank select.**
-  Bank 0 (all GND) = stock BIOS at file offset 0x0000. Burn a no-logo fast-boot
-  BIOS in bank 1 (A13=high) etc.
+## 27C512 (PLCC-32) — exact pin map  (use STOCK `Memory_EPROM:27C512PLCC`)
+WARNING: the old `LogicBoard 3GE/` repro's cached 27C512PLCC symbol was BROKEN
+(missing A1 & A9, duplicate A14) — a likely no-boot cause. Use the KiCad stock one.
+
+Address (to bus): 11=A0 10=A1 9=A2 8=A3 7=A4 6=A5 5=A6 4=A7 29=A8 28=A9
+                  24=A10 27=A11 3=A12   → labels A0..A12
+Data: 13=D0 14=D1 15=D2 18=D3 19=D4 20=D5 21=D6 22=D7
+Control: 23=/CE→`~{ROMS}`  25=/OE→`~{ROMOE}`  16=GND→GNDD  32=VCC→+5V
+NC: 1,12,17,26
+**Bank pins (NOT to the bus — use NEW nets to jumpers):**
+  30=A13→`ROM_BANK0`  31=A14→`ROM_BANK1`  2=A15→`ROM_BANK2`
+  each = jumper/DIP-switch to GND or +5V. Bank 0 (all GND) = BIOS at offset 0x0000.
+0.1uF decap between pin 32 and 16.
 
 ## CY62256 (SOP-28) — wiring
 - A0–A9 → CPU A0–A9 ; A10–A14 → GND ; D0–D7 → data bus
